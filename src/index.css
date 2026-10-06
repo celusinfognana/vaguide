@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply transition-colors duration-200;
+}
+
+html, body, #root {
+  @apply w-full h-full;
+}
+
+body {
+  @apply bg-white text-text-primary font-sans;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  @apply w-2 h-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-bg-light;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded hover:bg-gray-400;
+}
+
+/* Smooth transitions */
+/* .fade-in {
+  @apply animate-fadeIn;
+} */
+
+@keyframes fadeIn {
+  from {
+    @apply opacity-0;
+  }
+  to {
+    @apply opacity-100;
+  }
+}
+
+/* Toast animations */
+@keyframes slideIn {
+  from {
+    @apply translate-x-full opacity-0;
+  }
+  to {
+    @apply translate-x-0 opacity-100;
+  }
+}
+
+.toast-enter {
+  animation: slideIn 0.3s ease-in-out;
+}
+
+/* Skeleton loading */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 1000px 100%;
+  animation: shimmer 2s infinite;
+}
+
+/* Focus states */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  @apply outline-2 outline-offset-2 outline-accent-blue;
+}
+
+/* Touch targets */
+@media (hover: none) {
+  button, a {
+    @apply min-h-10 min-w-10;
+  }
+}
