@@ -6,7 +6,9 @@ export default function GlobalSearchModal({
   onClose,
   onSelectProcedure,
   allProperties,
+  allSubproperties = [],
   allProcedures,
+  currentPropertyId,
   query,
   setQuery,
   scope,
@@ -19,39 +21,49 @@ export default function GlobalSearchModal({
       return { recent: [], properties: [], procedures: [] }
     }
 
-    const q = query.toLowerCase()
+    const q = query.trim().toLowerCase()
     const results = {
       recent: [],
       properties: [],
       procedures: [],
     }
+    const propertyById = Object.fromEntries(allProperties.map((property) => [property.id, property]))
+    const subpropertyById = Object.fromEntries(allSubproperties.map((subproperty) => [subproperty.id, subproperty]))
+    const scopedPropertyIds = scope === 'current' && currentPropertyId
+      ? new Set([currentPropertyId])
+      : new Set(allProperties.map((property) => property.id))
 
     // Search properties
     allProperties.forEach(prop => {
-      if (prop.name.toLowerCase().includes(q)) {
+      if (scopedPropertyIds.has(prop.id) && prop.name.toLowerCase().includes(q)) {
         results.properties.push(prop)
       }
     })
 
     // Search procedures
     Object.entries(allProcedures).forEach(([propId, procs]) => {
+      if (!scopedPropertyIds.has(propId)) return
+
       procs.forEach(proc => {
+        const subproperty = proc.subpropertyId ? subpropertyById[proc.subpropertyId] : null
         if (
           proc.name.toLowerCase().includes(q) ||
-          proc.keywords.some(k => k.toLowerCase().includes(q)) ||
-          proc.description.toLowerCase().includes(q)
+          (proc.keywords || []).some(k => k.toLowerCase().includes(q)) ||
+          (proc.description || '').toLowerCase().includes(q) ||
+          (subproperty?.name || '').toLowerCase().includes(q)
         ) {
           results.procedures.push({
             ...proc,
             propertyId: propId,
-            propertyName: allProperties.find(p => p.id === propId)?.name,
+            propertyName: propertyById[propId]?.name,
+            subpropertyName: subproperty?.name || '',
           })
         }
       })
     })
 
     return results
-  }, [query, allProperties, allProcedures])
+  }, [query, scope, currentPropertyId, allProperties, allSubproperties, allProcedures])
 
   const allResults = [
     ...searchResults.properties,
@@ -195,7 +207,10 @@ export default function GlobalSearchModal({
                       <div className="flex items-center justify-between">
                         <div>
                           <div className="font-medium text-text-primary">{proc.name}</div>
-                          <div className="text-sm text-text-secondary">{proc.propertyName}</div>
+                          <div className="text-sm text-text-secondary">
+                            {proc.propertyName}
+                            {scope === 'all' && proc.subpropertyName ? ` / ${proc.subpropertyName}` : ''}
+                          </div>
                         </div>
                         <span className={`text-xs px-2 py-1 rounded ${
                           proc.channel === 'chat'

@@ -237,21 +237,20 @@ const isLegacyVillaKeyEntry = (value) => {
   return normalized.includes('villakey') || normalized.includes('villa key')
 }
 
-const isImportedVillaKeyEntry = (value) => value?.source === 'uploaded-villakey'
 
 const sanitizeLegacyVillaKeyData = (database) => {
   const preservedProperties = toArray(database?.properties).filter(
-    (property) => isImportedVillaKeyEntry(property) || (!isLegacyVillaKeyEntry(property?.id) && !isLegacyVillaKeyEntry(property?.name) && !isLegacyVillaKeyEntry(property?.code)),
+    (property) => !isLegacyVillaKeyEntry(property?.id) && !isLegacyVillaKeyEntry(property?.name) && !isLegacyVillaKeyEntry(property?.code),
   )
   const preservedPropertyIds = new Set(preservedProperties.map((property) => property.id))
 
   const preservedSubproperties = toArray(database?.subproperties).filter(
     (subproperty) =>
-      (isImportedVillaKeyEntry(subproperty) || (!isLegacyVillaKeyEntry(subproperty?.parentPropertyId) &&
+      (!isLegacyVillaKeyEntry(subproperty?.parentPropertyId) &&
       !isLegacyVillaKeyEntry(subproperty?.id) &&
       !isLegacyVillaKeyEntry(subproperty?.name) &&
       !isLegacyVillaKeyEntry(subproperty?.code) &&
-      preservedPropertyIds.has(subproperty?.parentPropertyId || ''))),
+      preservedPropertyIds.has(subproperty?.parentPropertyId || '')),
   )
   const preservedSubpropertyIds = new Set(preservedSubproperties.map((subproperty) => subproperty.id))
 
@@ -261,12 +260,12 @@ const sanitizeLegacyVillaKeyData = (database) => {
 
   const preservedProcedures = toArray(database?.procedures).filter(
     (procedure) =>
-      (isImportedVillaKeyEntry(procedure) || (!isLegacyVillaKeyEntry(procedure?.propertyId) &&
+      (!isLegacyVillaKeyEntry(procedure?.propertyId) &&
       !isLegacyVillaKeyEntry(procedure?.subpropertyId) &&
       !isLegacyVillaKeyEntry(procedure?.id) &&
       !isLegacyVillaKeyEntry(procedure?.name) &&
       !isLegacyVillaKeyEntry(procedure?.description) &&
-      preservedPropertyIds.has(procedure?.propertyId || ''))),
+      preservedPropertyIds.has(procedure?.propertyId || '')),
   )
 
   const preservedSubpropertySections = Object.fromEntries(
@@ -894,5 +893,3 @@ export const adminStorageConfig = {
   key: STORAGE_KEY,
   version: DATABASE_VERSION,
 }
-
-

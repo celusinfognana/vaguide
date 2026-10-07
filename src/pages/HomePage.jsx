@@ -9,6 +9,10 @@ export default function HomePage({
   onPropertySelect,
   onToggleFavorite,
   onShowToast,
+  onOpenSearch,
+  onBrowseProperties,
+  onViewFavorites,
+  onViewRecent,
 }) {
   const favoriteProperties = allProperties.filter(p => p.isFavorite || favorites[p.id])
   const recentProperties = allProperties.slice(0, 6)
@@ -44,22 +48,38 @@ export default function HomePage({
         <div className="mb-8">
           <h2 className="text-xl font-semibold text-text-primary mb-4">Quick Actions</h2>
           <div className="grid grid-cols-4 gap-4">
-            <button className="p-4 bg-blue-50 border border-accent-blue rounded-lg hover:bg-blue-100 transition-colors text-left">
+            <button
+              type="button"
+              onClick={onOpenSearch}
+              className="p-4 bg-blue-50 border border-accent-blue rounded-lg hover:bg-blue-100 transition-colors text-left"
+            >
               <Search className="text-accent-blue mb-2" size={24} />
               <div className="font-medium text-text-primary">Search Procedures</div>
               <div className="text-sm text-text-secondary">Find any workflow</div>
             </button>
-            <button className="p-4 bg-green-50 border border-accent-success rounded-lg hover:bg-green-100 transition-colors text-left">
+            <button
+              type="button"
+              onClick={onBrowseProperties}
+              className="p-4 bg-green-50 border border-accent-success rounded-lg hover:bg-green-100 transition-colors text-left"
+            >
               <Zap className="text-accent-success mb-2" size={24} />
               <div className="font-medium text-text-primary">Browse Properties</div>
               <div className="text-sm text-text-secondary">View all 50+ properties</div>
             </button>
-            <button className="p-4 bg-yellow-50 border border-accent-warning rounded-lg hover:bg-yellow-100 transition-colors text-left">
+            <button
+              type="button"
+              onClick={onViewFavorites}
+              className="p-4 bg-yellow-50 border border-accent-warning rounded-lg hover:bg-yellow-100 transition-colors text-left"
+            >
               <Star className="text-accent-warning mb-2" size={24} />
               <div className="font-medium text-text-primary">View Favorites</div>
               <div className="text-sm text-text-secondary">Your saved items</div>
             </button>
-            <button className="p-4 bg-purple-50 border border-accent-call rounded-lg hover:bg-purple-100 transition-colors text-left">
+            <button
+              type="button"
+              onClick={onViewRecent}
+              className="p-4 bg-purple-50 border border-accent-call rounded-lg hover:bg-purple-100 transition-colors text-left"
+            >
               <Clock className="text-accent-call mb-2" size={24} />
               <div className="font-medium text-text-primary">Recent Items</div>
               <div className="text-sm text-text-secondary">Recently viewed</div>

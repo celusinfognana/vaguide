@@ -26,14 +26,14 @@ export default function ProceduresList({ procedures = [], selectedProcedure, onS
 
   const sections = [
     {
-      id: 'general',
-      title: 'General Procedures',
-      items: filteredProcedures.filter((procedure) => procedure.procedureScope === 'general' || procedure.inheritedFromProperty),
-    },
-    {
       id: 'subproperty',
       title: 'Subproperty-specific Procedures',
       items: filteredProcedures.filter((procedure) => procedure.procedureScope === 'subproperty'),
+    },
+    {
+      id: 'general',
+      title: 'General Procedures',
+      items: filteredProcedures.filter((procedure) => procedure.procedureScope === 'general' || procedure.inheritedFromProperty),
     },
     {
       id: 'property',

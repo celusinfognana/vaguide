@@ -11,6 +11,7 @@ export default function MainWorkspace({
   selectedProperty,
   selectedSubproperty,
   subpropertySections,
+  propertySections,
   selectedProcedure,
   proceduresInCategory,
   allProperties,
@@ -21,6 +22,7 @@ export default function MainWorkspace({
   onCategorySelect,
   onProcedureSelect,
   onNavigatePage,
+  onOpenSearch,
   searchQuery,
   searchScope,
   activeWorkspaceTab,
@@ -41,6 +43,10 @@ export default function MainWorkspace({
           }}
           onToggleFavorite={onToggleFavorite}
           onShowToast={onShowToast}
+          onOpenSearch={onOpenSearch}
+          onBrowseProperties={() => onNavigatePage('properties')}
+          onViewFavorites={() => onNavigatePage('favorites')}
+          onViewRecent={() => onNavigatePage('recent')}
         />
       )}
 
@@ -62,6 +68,7 @@ export default function MainWorkspace({
           property={selectedProperty}
           subproperty={selectedSubproperty}
           subpropertySections={subpropertySections}
+          propertySections={propertySections}
           selectedProcedure={selectedProcedure}
           proceduresInCategory={proceduresInCategory}
           favorites={favorites}

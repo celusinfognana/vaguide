@@ -13,6 +13,7 @@ export default function PropertyWorkspace({
   property,
   subproperty,
   subpropertySections = {},
+  propertySections = {},
   selectedProcedure,
   proceduresInCategory,
   allProperties,
@@ -38,16 +39,17 @@ export default function PropertyWorkspace({
 
   const workspaceEntity = subproperty || property
   const savedSections = subproperty ? subpropertySections[subproperty.id] || {} : null
-  const propertyRules = subproperty ? savedSections.rules || [] : mockRules[property.id] || []
-  const propertyContacts = subproperty ? savedSections.contacts || [] : mockContacts[property.id] || []
+  const savedPropertySections = subproperty ? null : propertySections[property.id] || {}
+  const propertyRules = subproperty ? savedSections.rules || [] : savedPropertySections.rules || mockRules[property.id] || []
+  const propertyContacts = subproperty ? savedSections.contacts || [] : savedPropertySections.contacts || mockContacts[property.id] || []
   const propertyInfo = subproperty
     ? savedSections.propertyInfo || {
         name: subproperty.name,
         type: 'Subproperty / Collection',
         occupancy: 'Not set',
       }
-    : mockPropertyInfo[property.id]
-  const propertyOverview = subproperty ? savedSections.overview : null
+    : savedPropertySections.propertyInfo || mockPropertyInfo[property.id]
+  const propertyOverview = subproperty ? savedSections.overview : savedPropertySections.overview
   const activeTab = activeWorkspaceTab || 'procedures'
   const currentProcedure = (proceduresInCategory || []).find((p) => p.id === selectedProcedure)
   const runnerProcedure = currentProcedure && currentProcedure.steps?.length

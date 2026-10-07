@@ -81,7 +81,7 @@ export const mockProperties = [
   },
   {
     id: 'casa-city',
-    name: 'Casa City',
+    name: 'CASA CITY',
     color: '#F97316',
     status: 'active',
     procedureCount: 26,

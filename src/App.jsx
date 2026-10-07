@@ -10,6 +10,7 @@ import { mockProperties } from './data/mockData'
 import { propertyWorkflowProcedures } from './data/workflowData'
 import { createAdminRepository, toWorkflowRunnerProcedure } from './data/adminStorage'
 import { villakeySourceData } from './data/villakeySourceData'
+import { casaCitySourceData } from './data/casaCitySourceData'
 
 const normalizeWorkflowProcedure = (procedure) => {
   if (!procedure || !Array.isArray(procedure.steps)) return procedure
@@ -52,62 +53,92 @@ const workflowProceduresByProperty = Object.fromEntries(
   ])
 )
 
-const villakeySubproperties = villakeySourceData.subproperties.map((subproperty) => ({
-  id: subproperty.id,
-  parentPropertyId: villakeySourceData.property.id,
-  name: subproperty.name,
-  code: subproperty.id.toUpperCase(),
-  status: 'active',
-  notes: '',
-  source: 'uploaded-villakey',
-}))
+const uploadedCollectionSources = [
+  { data: villakeySourceData, source: 'uploaded-villakey' },
+  { data: casaCitySourceData, source: 'uploaded-casa-city' },
+]
 
-const villakeyPropertyProcedures = (villakeySourceData.sharedProcedures || [])
-  .map((procedure) => ({
-    ...procedure,
-    propertyId: villakeySourceData.property.id,
-    subpropertyId: '',
-    source: 'uploaded-villakey',
+const buildUploadedCollectionSeed = ({ data, source }) => {
+  const subproperties = data.subproperties.map((subproperty) => ({
+    id: subproperty.id,
+    parentPropertyId: data.property.id,
+    name: subproperty.name,
+    code: subproperty.id.toUpperCase(),
+    status: 'active',
+    notes: '',
+    source,
   }))
 
-const villakeySubpropertyProcedures = villakeySourceData.subproperties.flatMap((subproperty) =>
-  subproperty.procedures
-    .filter((procedure) => procedure.sourceNumber <= 8)
-    .map((procedure) => ({
-      ...procedure,
-      propertyId: villakeySourceData.property.id,
-      subpropertyId: subproperty.id,
-      source: 'uploaded-villakey',
-    })),
-)
+  const propertyProcedures = (data.sharedProcedures || []).map((procedure) => ({
+    ...procedure,
+    propertyId: data.property.id,
+    subpropertyId: '',
+    source,
+  }))
 
-const villakeySubpropertySections = Object.fromEntries(
-  villakeySourceData.subproperties.map((subproperty) => [
-    subproperty.id,
-    {
-      overview: {
-        summary: subproperty.overview.summary,
-        propertyHighlights: subproperty.overview.importantInformation,
-        adminNotes: subproperty.overview.title,
-        quickRules: {},
+  const subpropertyProcedures = data.subproperties.flatMap((subproperty) =>
+    subproperty.procedures.map((procedure) => ({
+      ...procedure,
+      propertyId: data.property.id,
+      subpropertyId: subproperty.id,
+      source,
+    })),
+  )
+
+  const subpropertySections = Object.fromEntries(
+    data.subproperties.map((subproperty) => [
+      subproperty.id,
+      {
+        overview: {
+          summary: subproperty.overview.summary,
+          propertyHighlights: subproperty.overview.importantInformation,
+          adminNotes: subproperty.overview.title,
+          quickRules: {},
+        },
+        rules: subproperty.rules,
+        contacts: subproperty.contacts,
+        propertyInfo: subproperty.propertyInfo,
       },
-      rules: subproperty.rules,
-      contacts: subproperty.contacts,
-      propertyInfo: subproperty.propertyInfo,
+    ]),
+  )
+
+  return {
+    property: { ...data.property, source },
+    subproperties,
+    subpropertySections,
+    propertyOverview: data.overview || {},
+    propertySections: {
+      overview: data.overview || {},
+      rules: data.rules || [],
+      contacts: data.contacts || [],
+      propertyInfo: data.propertyInfo || {},
     },
-  ]),
+    procedures: [...propertyProcedures, ...subpropertyProcedures],
+  }
+}
+
+const uploadedCollectionSeeds = uploadedCollectionSources.map(buildUploadedCollectionSeed)
+const uploadedPropertyIds = new Set(uploadedCollectionSeeds.map((seed) => seed.property.id))
+const uploadedPropertyById = Object.fromEntries(
+  uploadedCollectionSeeds.map((seed) => [seed.property.id, seed.property]),
+)
+const uploadedPropertySections = Object.fromEntries(
+  uploadedCollectionSeeds.map((seed) => [seed.property.id, seed.propertySections]),
 )
 
 const adminSeed = {
-  properties: [...mockProperties, { ...villakeySourceData.property, source: 'uploaded-villakey' }],
-  subproperties: villakeySubproperties,
-  subpropertySections: villakeySubpropertySections,
+  properties: [
+    ...mockProperties.filter((property) => !uploadedPropertyIds.has(property.id)),
+    ...uploadedCollectionSeeds.map((seed) => seed.property),
+  ],
+  subproperties: uploadedCollectionSeeds.flatMap((seed) => seed.subproperties),
+  subpropertySections: Object.assign({}, ...uploadedCollectionSeeds.map((seed) => seed.subpropertySections)),
   propertyOverviews: {
-    [villakeySourceData.property.id]: {},
+    ...Object.fromEntries(uploadedCollectionSeeds.map((seed) => [seed.property.id, seed.propertyOverview])),
   },
   proceduresByProperty: {
     ...workflowProceduresByProperty,
-    [villakeySourceData.property.id]: [...villakeyPropertyProcedures, ...villakeySubpropertyProcedures],
+    ...Object.fromEntries(uploadedCollectionSeeds.map((seed) => [seed.property.id, seed.procedures])),
   },
 }
 
@@ -137,7 +168,7 @@ const getProceduresForSelection = (procedures = [], selectedSubproperty = '') =>
       procedureScope: 'subproperty',
     }))
 
-  return [...generalProcedures, ...subpropertyProcedures]
+  return [...subpropertyProcedures, ...generalProcedures]
 }
 
 export default function App() {
@@ -162,7 +193,15 @@ export default function App() {
   const [favorites, setFavorites] = useState({})
   const [adminDatabase, setAdminDatabase] = useState(() => adminRepository.read())
 
-  const properties = adminDatabase?.properties || []
+  const properties = (adminDatabase?.properties || []).map((property) =>
+    uploadedPropertyById[property.id]
+      ? {
+          ...property,
+          ...uploadedPropertyById[property.id],
+          isFavorite: property.isFavorite,
+        }
+      : property,
+  )
   const subproperties = adminDatabase?.subproperties || []
   const subpropertiesByProperty = useMemo(() => {
     const grouped = {}
@@ -333,6 +372,7 @@ export default function App() {
           selectedProperty={currentPropertyData}
           selectedSubproperty={currentSubproperties.find((subproperty) => subproperty.id === selectedSubproperty)}
           subpropertySections={adminDatabase?.subpropertySections || {}}
+          propertySections={uploadedPropertySections}
           selectedProcedure={selectedProcedure}
           proceduresInCategory={proceduresInCategory}
           allProperties={properties}
@@ -343,6 +383,7 @@ export default function App() {
           onCategorySelect={handleSelectCategory}
           onProcedureSelect={(procId, propId) => handleSelectProcedure(procId, propId || selectedProperty)}
           onNavigatePage={setCurrentPage}
+          onOpenSearch={() => setSearchOpen(true)}
           searchQuery={searchQuery}
           searchScope={searchScope}
           activeWorkspaceTab={activeWorkspaceTab}
@@ -367,7 +408,9 @@ export default function App() {
             setSearchQuery('')
           }}
           allProperties={properties}
+          allSubproperties={subproperties}
           allProcedures={proceduresByProperty}
+          currentPropertyId={selectedProperty}
           query={searchQuery}
           setQuery={setSearchQuery}
           scope={searchScope}
