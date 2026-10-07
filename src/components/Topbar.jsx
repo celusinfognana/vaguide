@@ -37,10 +37,11 @@ export default function Topbar({
     <header className="fixed top-0 left-0 right-0 h-16 bg-white border-b border-border-light z-40 flex items-center px-6 gap-4 shadow-soft flex-wrap sm:flex-nowrap">
       {/* Logo & Title */}
       <div className="flex items-center gap-3 min-w-max">
-        <div className="w-8 h-8 bg-accent-blue rounded-lg flex items-center justify-center text-white font-bold text-sm">
+        {/* <div className="w-8 h-8 bg-accent-blue rounded-lg flex items-center justify-center text-white font-bold text-sm">
           PH
-        </div>
-        <h1 className="text-lg font-semibold text-text-primary hidden sm:block">Property Support Hub</h1>
+        </div> */}
+        <img src="../assets/ig_logo.png" alt="Logo" className="h-8 w-100" />
+        {/* <h1 className="text-lg font-semibold text-text-primary hidden sm:block">Property Support Hub</h1> */}
       </div>
 
       {/* Property / Collection Dropdown */}
