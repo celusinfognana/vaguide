@@ -11,15 +11,35 @@ export default function PropertyOverview({ property, overview, proceduresInCateg
   })
 
   const popularProcedures = proceduresInCategory?.slice(0, 8) || []
-  const quickRules = overview?.quickRules || {
-    earliestCheckIn: '2:00 PM',
-    latestCheckOut: '12:00 PM',
-    petFee: '$150',
-    maximumOccupancy: '10',
-  }
+  const quickRules = overview?.quickRules || {}
+  const quickRuleFields = [
+    ['earliestCheckIn', 'Earliest Check-in'],
+    ['latestCheckOut', 'Latest Check-out'],
+    ['petFee', 'Pet Fee'],
+    ['maximumOccupancy', 'Max Overnight'],
+  ].filter(([key]) => quickRules[key])
 
   return (
     <div className="space-y-8">
+      {(overview?.summary || overview?.propertyHighlights) && (
+        <section>
+          {overview.title && <h3 className="text-lg font-semibold text-text-primary mb-3">{overview.title}</h3>}
+          {overview.summary && <p className="text-sm text-text-secondary leading-relaxed mb-3">{overview.summary}</p>}
+          {overview.propertyHighlights && (
+            <>
+              {overview.propertyHighlightsTitle && (
+                <h4 className="text-sm font-semibold text-text-primary mb-2">{overview.propertyHighlightsTitle}</h4>
+              )}
+              <ul className="space-y-2 text-sm text-text-secondary">
+                {String(overview.propertyHighlights).split('\n').filter(Boolean).map((highlight, index) => (
+                  <li key={index} className="leading-relaxed">{highlight}</li>
+                ))}
+              </ul>
+            </>
+          )}
+        </section>
+      )}
+
       {/* Summary Stats */}
       <div className="grid grid-cols-4 gap-4">
         <div className="p-4 bg-blue-50 rounded-lg border border-accent-blue">
@@ -40,28 +60,19 @@ export default function PropertyOverview({ property, overview, proceduresInCateg
         </div>
       </div>
 
-      {/* Quick Rules */}
-      <div>
-        <h3 className="text-lg font-semibold text-text-primary mb-4">Property Quick Rules</h3>
-        <div className="grid grid-cols-2 gap-3">
-          <div className="p-3 bg-bg-light rounded-lg border border-border-light">
-            <div className="text-sm font-medium text-text-primary">Earliest Check-in</div>
-            <div className="text-lg font-bold text-accent-blue mt-1">{quickRules.earliestCheckIn || 'Not set'}</div>
-          </div>
-          <div className="p-3 bg-bg-light rounded-lg border border-border-light">
-            <div className="text-sm font-medium text-text-primary">Latest Check-out</div>
-            <div className="text-lg font-bold text-accent-blue mt-1">{quickRules.latestCheckOut || 'Not set'}</div>
-          </div>
-          <div className="p-3 bg-bg-light rounded-lg border border-border-light">
-            <div className="text-sm font-medium text-text-primary">Pet Fee</div>
-            <div className="text-lg font-bold text-accent-blue mt-1">{quickRules.petFee || 'Not set'}</div>
-          </div>
-          <div className="p-3 bg-bg-light rounded-lg border border-border-light">
-            <div className="text-sm font-medium text-text-primary">Max Overnight</div>
-            <div className="text-lg font-bold text-accent-blue mt-1">{quickRules.maximumOccupancy || 'Not set'}</div>
+      {quickRuleFields.length > 0 && (
+        <div>
+          <h3 className="text-lg font-semibold text-text-primary mb-4">Property Quick Rules</h3>
+          <div className="grid grid-cols-2 gap-3">
+            {quickRuleFields.map(([key, label]) => (
+              <div key={key} className="p-3 bg-bg-light rounded-lg border border-border-light">
+                <div className="text-sm font-medium text-text-primary">{label}</div>
+                <div className="text-lg font-bold text-accent-blue mt-1">{quickRules[key]}</div>
+              </div>
+            ))}
           </div>
         </div>
-      </div>
+      )}
 
       {/* Popular Procedures */}
       <div>

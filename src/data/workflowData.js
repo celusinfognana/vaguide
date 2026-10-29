@@ -1252,18 +1252,7 @@ export const workflowProcedureMap = Object.fromEntries(
 )
 
 const propertyIds = [
-  'agi-holdings',
-  'air-mgmt',
-  'barron-mgmt',
-  'beam-barrel',
-  'bold-sun',
-  'book-vi',
-  'bow-vacation',
-  'bueno-bueno',
   'casa-city',
-  'coastal-dreams',
-  'downtown-lofts',
-  'emerald-estates',
 ]
 
 export const propertyWorkflowProcedures = Object.fromEntries(

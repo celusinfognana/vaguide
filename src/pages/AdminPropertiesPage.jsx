@@ -61,6 +61,8 @@ export default function AdminPropertiesPage({
   adminRepository,
   onAdminDatabaseChange,
   onShowToast,
+  serverConnected,
+  onRetryServerConnection,
 }) {
   const [searchQuery, setSearchQuery] = useState('')
   const [statusFilter, setStatusFilter] = useState('all')
@@ -102,6 +104,8 @@ export default function AdminPropertiesPage({
   const inactiveCount = properties.filter((property) => property.status === 'inactive').length
   const isEditing = Boolean(editingPropertyId)
   const selectedProperty = properties.find((property) => property.id === selectedPropertyId)
+  const isOfflineAgiProperty =
+    !serverConnected && selectedProperty?.source === 'uploaded-agi-holdings' && activeView !== 'list'
   const selectedOverview = selectedProperty ? adminDatabase?.propertyOverviews?.[selectedProperty.id] : null
   const selectedSubproperties = selectedProperty
     ? subproperties
@@ -114,8 +118,10 @@ export default function AdminPropertiesPage({
   const selectedSubproperty = selectedSubproperties.find((subproperty) => subproperty.id === selectedSubpropertyId)
   const selectedSubpropertyProcedures = selectedSubproperty
     ? selectedProcedures.filter((procedure) =>
-        (procedure.isGeneralProcedure && !procedure.subpropertyId) || procedure.subpropertyId === selectedSubproperty.id,
-      )
+      (procedure.isGeneralProcedure && !procedure.subpropertyId) ||
+      procedure.appliesToAllSubproperties ||
+      procedure.subpropertyId === selectedSubproperty.id,
+    )
     : []
 
   const resetForm = () => {
@@ -342,6 +348,7 @@ export default function AdminPropertiesPage({
   }
 
   const handleSubmit = (event) => {
+    console.log('handleSubmit called')  
     event.preventDefault()
 
     if (!validateForm()) {
@@ -428,7 +435,7 @@ export default function AdminPropertiesPage({
               <input
                 value={formData.name}
                 onChange={(event) => updateField('name', event.target.value)}
-                placeholder="AGI Holdings"
+                placeholder="Property name"
                 className={`w-full px-3 py-2 bg-bg-light border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-accent-blue ${
                   errors.name ? 'border-accent-danger' : 'border-border-light'
                 }`}
@@ -946,6 +953,26 @@ export default function AdminPropertiesPage({
 
   return (
     <div className="h-full overflow-y-auto bg-white">
+      {isOfflineAgiProperty && (
+        <div className="fixed top-20 right-8 z-[60] flex items-center gap-3 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900 shadow">
+          <span>Offline copy. Connect to the server to edit and save this collection.</span>
+          <button
+            type="button"
+            onClick={() => setActiveView(activeView === 'subproperty' ? 'property' : 'list')}
+            className="rounded-md border border-amber-300 px-3 py-1.5 font-medium hover:bg-amber-100"
+          >
+            {activeView === 'subproperty' ? 'Back to collection' : 'Back to properties'}
+          </button>
+          <button
+            type="button"
+            onClick={onRetryServerConnection}
+            className="rounded-md border border-amber-300 px-3 py-1.5 font-medium hover:bg-amber-100"
+          >
+            Retry connection
+          </button>
+        </div>
+      )}
+      <fieldset disabled={isOfflineAgiProperty} className="contents">
       {activeView === 'property-form' && renderPropertyForm()}
       {activeView === 'property' && selectedProperty && renderPropertyPage()}
       {activeView === 'subproperty' && selectedSubproperty && renderSubpropertyPage()}
@@ -1086,21 +1113,23 @@ export default function AdminPropertiesPage({
                         <Eye size={16} />
                       </button>
                       <button
+                        disabled={!serverConnected && property.source === 'uploaded-agi-holdings'}
                         onClick={(event) => {
                           event.stopPropagation()
                           handleEdit(property)
                         }}
-                        className="p-2 hover:bg-white rounded-lg text-text-secondary hover:text-accent-blue"
+                        className="p-2 hover:bg-white rounded-lg text-text-secondary hover:text-accent-blue disabled:cursor-not-allowed disabled:opacity-40"
                         title="Edit"
                       >
                         <Edit3 size={16} />
                       </button>
                       <button
+                        disabled={!serverConnected && property.source === 'uploaded-agi-holdings'}
                         onClick={(event) => {
                           event.stopPropagation()
                           handleDelete(property)
                         }}
-                        className="p-2 hover:bg-white rounded-lg text-text-secondary hover:text-accent-danger"
+                        className="p-2 hover:bg-white rounded-lg text-text-secondary hover:text-accent-danger disabled:cursor-not-allowed disabled:opacity-40"
                         title="Delete"
                       >
                         <Trash2 size={16} />
@@ -1360,7 +1389,7 @@ export default function AdminPropertiesPage({
                 <input
                   value={formData.name}
                   onChange={(event) => updateField('name', event.target.value)}
-                  placeholder="AGI Holdings"
+                  placeholder="Property name"
                   className={`w-full px-3 py-2 bg-bg-light border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-accent-blue ${
                     errors.name ? 'border-accent-danger' : 'border-border-light'
                   }`}
@@ -1514,7 +1543,7 @@ export default function AdminPropertiesPage({
         </div>
       </div>
       )}
+      </fieldset>
     </div>
   )
 }
-

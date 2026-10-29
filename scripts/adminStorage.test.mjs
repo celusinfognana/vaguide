@@ -219,4 +219,64 @@ assert.equal(database.procedures.some((item) => item.propertyId === property.id)
 assert.equal(database.subproperties.some((item) => item.parentPropertyId === property.id), false)
 assert.equal(database.propertyOverviews[property.id], undefined)
 
+const migrationStorage = createMemoryStorage()
+let migrationRepository = createAdminRepository({ storage: migrationStorage })
+migrationRepository.createProperty({
+  id: 'versioned-source',
+  name: 'Old Source Name',
+  code: 'OLD',
+  source: 'versioned-source',
+})
+
+const legacyDatabase = JSON.parse(migrationStorage.getItem(adminStorageConfig.key))
+legacyDatabase.propertyOverviews['versioned-source'] = {
+  summary: 'Old source overview',
+  propertyHighlights: 'Old source highlights',
+}
+migrationStorage.setItem(adminStorageConfig.key, JSON.stringify(legacyDatabase))
+
+const sourceSeed = {
+  properties: [{
+    id: 'versioned-source',
+    name: 'Current Source Name',
+    code: 'CURRENT',
+    source: 'versioned-source',
+    sourceVersion: 1,
+  }],
+  propertyOverviews: {
+    'versioned-source': {
+      summary: 'Current source overview',
+      propertyHighlights: 'Current source highlights',
+      sourceVersion: 1,
+    },
+  },
+}
+migrationRepository = createAdminRepository({ storage: migrationStorage, seed: sourceSeed })
+database = migrationRepository.read()
+assert.equal(database.properties.find((item) => item.id === 'versioned-source').name, 'Current Source Name')
+assert.equal(database.propertyOverviews['versioned-source'].summary, 'Current source overview')
+
+migrationRepository.upsertPropertyOverview('versioned-source', {
+  summary: 'User-edited source overview',
+})
+migrationRepository.updateProperty('versioned-source', {
+  name: 'User Edited Source Name',
+})
+migrationRepository = createAdminRepository({
+  storage: migrationStorage,
+  seed: {
+    ...sourceSeed,
+    properties: [{ ...sourceSeed.properties[0], name: 'Newer Source Name', sourceVersion: 2 }],
+    propertyOverviews: {
+      'versioned-source': {
+        summary: 'Newer source overview',
+        sourceVersion: 2,
+      },
+    },
+  },
+})
+database = migrationRepository.read()
+assert.equal(database.propertyOverviews['versioned-source'].summary, 'User-edited source overview')
+assert.equal(database.properties.find((item) => item.id === 'versioned-source').name, 'User Edited Source Name')
+
 console.log('adminStorage CRUD persistence test passed')

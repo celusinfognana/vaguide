@@ -15,6 +15,14 @@ export const casaCitySourceData = {
     "adminNotes": "",
     "quickRules": {}
   },
+  "collectionOperations": {
+    "whatsappGroup": "Casacity - Guest Relations",
+    "cleaningTeam": "CasaCity Cleaning team",
+    "officeAddress": "53 Portland Street, Manchester, England, M1 3LD, United Kingdom",
+    "systems": ["Guesty", "Enso / Enzo", "Keynest", "Minut", "WhatsApp", "Guest Relations group", "Cleaning group"],
+    "sourceScopeNote": "Where the source refers to a property not present in the current 25-property CSV, that item is retained under Additional Information rather than being invented as a new master-list property.",
+    "templateCategoryRule": "Chat categories are Reservations, Check-in / Check-out, Access / Lockouts, During Stay, Maintenance, Cleaning, Payments / Refunds, Pets / Visitors, Occupancy / Events, Post-Stay, and Other Requests. Call categories are Lockouts, Emergency, Maintenance, Cleaning, Host / Owner, Guest Calls, and Management. Procedures are assigned to the closest applicable approved category; categories with zero procedures do not receive empty procedure cards."
+  },
   "rules": [
     {
       "category": "Property Rules",

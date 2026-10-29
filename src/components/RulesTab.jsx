@@ -28,10 +28,12 @@ export default function RulesTab({ rules }) {
             {categoryRules.map((rule, idx) => (
               <div key={idx} className="p-4 bg-white border border-border-light rounded-lg hover:shadow-soft transition-all">
                 <div className="flex items-start justify-between mb-2">
-                  <h4 className="font-medium text-text-primary">{rule.name}</h4>
+                  {rule.name && <h4 className="font-medium text-text-primary">{rule.name}</h4>}
                   {rule.verified && <Check size={18} className="text-accent-success flex-shrink-0" />}
                 </div>
-                <div className="text-lg font-bold text-accent-blue mb-2">{rule.value}</div>
+                <div className={rule.name ? 'text-lg font-bold text-accent-blue mb-2' : 'text-sm text-text-secondary leading-relaxed mb-2'}>
+                  {rule.value}
+                </div>
                 {!rule.verified && (
                   <div className="text-xs text-accent-warning bg-yellow-50 px-2 py-1 rounded inline-block">
                     Not verified

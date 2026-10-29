@@ -11,6 +11,9 @@ import { propertyWorkflowProcedures } from './data/workflowData'
 import { createAdminRepository, toWorkflowRunnerProcedure } from './data/adminStorage'
 import { villakeySourceData } from './data/villakeySourceData'
 import { casaCitySourceData } from './data/casaCitySourceData'
+import airMgmtSourceData from './data/airMgmtSourceData.js'
+import agiHoldingsSourceData from './data/agiHoldingsSourceData.js'
+import { fetchDatabase, persistDatabase } from './services/api'
 
 const normalizeWorkflowProcedure = (procedure) => {
   if (!procedure || !Array.isArray(procedure.steps)) return procedure
@@ -56,9 +59,28 @@ const workflowProceduresByProperty = Object.fromEntries(
 const uploadedCollectionSources = [
   { data: villakeySourceData, source: 'uploaded-villakey' },
   { data: casaCitySourceData, source: 'uploaded-casa-city' },
+  { data: airMgmtSourceData, source: 'uploaded-air-mgmt' },
+  { data: agiHoldingsSourceData, source: 'uploaded-agi-holdings' },
 ]
 
 const buildUploadedCollectionSeed = ({ data, source }) => {
+  const collectionOperations = data.collectionOperations
+  const propertyInfo = data.propertyInfo || {}
+  const additionalInformation = [
+    propertyInfo.additionalInformation,
+    collectionOperations &&
+      [
+        'Collection-wide operational details',
+        `WhatsApp: ${collectionOperations.whatsappGroup}`,
+        `Cleaning Team: ${collectionOperations.cleaningTeam}`,
+        `Office Address: ${collectionOperations.officeAddress}`,
+        `Operational Systems Referenced: ${collectionOperations.systems.join(', ')}`,
+        `Source Scope Note: ${collectionOperations.sourceScopeNote}`,
+        `Template category rule: ${collectionOperations.templateCategoryRule}`,
+      ].join('\n'),
+  ]
+    .filter(Boolean)
+    .join('\n\n')
   const subproperties = data.subproperties.map((subproperty) => ({
     id: subproperty.id,
     parentPropertyId: data.property.id,
@@ -90,20 +112,22 @@ const buildUploadedCollectionSeed = ({ data, source }) => {
       subproperty.id,
       {
         overview: {
+          title: subproperty.overview.title,
           summary: subproperty.overview.summary,
           propertyHighlights: subproperty.overview.importantInformation,
-          adminNotes: subproperty.overview.title,
+          propertyHighlightsTitle: subproperty.overview.propertyHighlightsTitle,
           quickRules: {},
         },
         rules: subproperty.rules,
         contacts: subproperty.contacts,
         propertyInfo: subproperty.propertyInfo,
+        sourceVersion: data.property.sourceVersion,
       },
     ]),
   )
 
   return {
-    property: { ...data.property, source },
+    property: { ...data.property, source, sourceDocument: data.sourceDocument },
     subproperties,
     subpropertySections,
     propertyOverview: data.overview || {},
@@ -111,7 +135,10 @@ const buildUploadedCollectionSeed = ({ data, source }) => {
       overview: data.overview || {},
       rules: data.rules || [],
       contacts: data.contacts || [],
-      propertyInfo: data.propertyInfo || {},
+      propertyInfo: {
+        ...propertyInfo,
+        ...(collectionOperations ? { additionalInformation } : {}),
+      },
     },
     procedures: [...propertyProcedures, ...subpropertyProcedures],
   }
@@ -155,10 +182,10 @@ const getProceduresForSelection = (procedures = [], selectedSubproperty = '') =>
   }
 
   const generalProcedures = mainProcedures
-    .filter(isGeneralProcedure)
+    .filter((procedure) => isGeneralProcedure(procedure) || procedure.appliesToAllSubproperties)
     .map((procedure) => ({
       ...procedure,
-      procedureScope: 'general',
+      procedureScope: isGeneralProcedure(procedure) ? 'general' : 'shared',
       inheritedFromProperty: true,
     }))
   const subpropertyProcedures = procedures
@@ -181,7 +208,7 @@ export default function App() {
   )
 
   const [currentPage, setCurrentPage] = useState('home')
-  const [selectedProperty, setSelectedProperty] = useState('agi-holdings')
+  const [selectedProperty, setSelectedProperty] = useState(() => adminRepository.read().properties[0]?.id || '')
   const [selectedProcedure, setSelectedProcedure] = useState(null)
   const [selectedCategory, setSelectedCategory] = useState(null)
   const [selectedSubproperty, setSelectedSubproperty] = useState('')
@@ -192,15 +219,56 @@ export default function App() {
   const [toast, setToast] = useState(null)
   const [favorites, setFavorites] = useState({})
   const [adminDatabase, setAdminDatabase] = useState(() => adminRepository.read())
+  const [serverConnected, setServerConnected] = useState(false)
+  const [connectionAttempt, setConnectionAttempt] = useState(0)
+
+  useEffect(() => {
+    let active = true
+    fetchDatabase().then(async (stored) => {
+      if (!active) return
+      setServerConnected(true)
+      if (stored) {
+        adminRepository.replace(stored)
+        const merged = adminRepository.mergeSeed()
+        setAdminDatabase(merged)
+        await persistDatabase(merged)
+      } else {
+        await persistDatabase(adminRepository.read())
+      }
+    }).catch((error) => {
+      setServerConnected(false)
+      console.error('Unable to load database:', error)
+      showToast('Unable to connect to the server. Changes may not be saved.', 'error')
+    })
+    return () => { active = false }
+  }, [adminRepository, connectionAttempt])
+
+  const handleAdminDatabaseChange = (nextDatabase) => {
+    setAdminDatabase(nextDatabase)
+    persistDatabase(nextDatabase).catch((error) => {
+      console.error('Unable to save database:', error)
+      showToast('Unable to save changes to the server.', 'error')
+    })
+  }
+
 
   const properties = (adminDatabase?.properties || []).map((property) =>
     uploadedPropertyById[property.id]
       ? {
-          ...property,
           ...uploadedPropertyById[property.id],
+          ...property,
           isFavorite: property.isFavorite,
         }
       : property,
+  )
+  const propertySections = Object.fromEntries(
+    Object.entries(uploadedPropertySections).map(([propertyId, sections]) => [
+      propertyId,
+      {
+        ...sections,
+        overview: adminDatabase?.propertyOverviews?.[propertyId] || sections.overview,
+      },
+    ]),
   )
   const subproperties = adminDatabase?.subproperties || []
   const subpropertiesByProperty = useMemo(() => {
@@ -313,7 +381,7 @@ export default function App() {
 
     if (type === 'property' && property) {
       const nextDatabase = adminRepository.updateProperty(id, { isFavorite: nextFavorite })
-      setAdminDatabase(nextDatabase)
+      handleAdminDatabaseChange(nextDatabase)
     }
 
     showToast(nextFavorite ? 'Added to favorites' : 'Removed from favorites')
@@ -372,7 +440,7 @@ export default function App() {
           selectedProperty={currentPropertyData}
           selectedSubproperty={currentSubproperties.find((subproperty) => subproperty.id === selectedSubproperty)}
           subpropertySections={adminDatabase?.subpropertySections || {}}
-          propertySections={uploadedPropertySections}
+          propertySections={propertySections}
           selectedProcedure={selectedProcedure}
           proceduresInCategory={proceduresInCategory}
           allProperties={properties}
@@ -390,7 +458,10 @@ export default function App() {
           onSelectWorkspaceTab={setActiveWorkspaceTab}
           adminDatabase={adminDatabase}
           adminRepository={adminRepository}
-          onAdminDatabaseChange={setAdminDatabase}
+          onAdminDatabaseChange={handleAdminDatabaseChange}
+          isReadOnlyOfflineCollection={selectedProperty === agiHoldingsSourceData.property.id && !serverConnected}
+          onRetryServerConnection={() => setConnectionAttempt((attempt) => attempt + 1)}
+          serverConnected={serverConnected}
         />
       </div>
 
@@ -428,5 +499,3 @@ export default function App() {
     </div>
   )
 }
-
-

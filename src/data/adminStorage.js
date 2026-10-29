@@ -127,7 +127,6 @@ const createEmptyDatabase = () => ({
 
 const getStorage = (storageOverride) => {
   if (storageOverride) return storageOverride
-  if (typeof window !== 'undefined' && window.localStorage) return window.localStorage
   return null
 }
 
@@ -349,31 +348,117 @@ const mergeSeedDatabase = (database, seed) => {
   if (!seed) return { database, changed: false }
 
   const seedDatabase = buildInitialAdminDatabase(seed)
-  const existingPropertyIds = new Set(database.properties.map((property) => property.id))
-  const existingSubpropertyIds = new Set(database.subproperties.map((subproperty) => subproperty.id))
+  // Retired collections and uploaded replacements remove their entire saved
+  // graph before the current seed is applied.
+  const retiredPropertyIds = new Set(seed.retiredPropertyIds || [])
+  const replacementPropertyIds = new Set(
+    seedDatabase.properties
+      .filter((property) =>
+        property.source === 'uploaded-casa-city' || property.source === 'uploaded-villakey',
+      )
+      .map((property) => property.id),
+  )
+  const resetPropertyIds = new Set([...retiredPropertyIds, ...replacementPropertyIds])
+  const replacementSubpropertyIds = new Set(
+    database.subproperties
+      .filter((subproperty) => resetPropertyIds.has(subproperty.parentPropertyId))
+      .map((subproperty) => subproperty.id),
+  )
+  const baseDatabase = resetPropertyIds.size
+    ? {
+        ...database,
+        properties: database.properties.filter((property) => !resetPropertyIds.has(property.id)),
+        subproperties: database.subproperties.filter(
+          (subproperty) => !resetPropertyIds.has(subproperty.parentPropertyId),
+        ),
+        subpropertySections: Object.fromEntries(
+          Object.entries(database.subpropertySections).filter(
+            ([subpropertyId]) => !replacementSubpropertyIds.has(subpropertyId),
+          ),
+        ),
+        propertyOverviews: Object.fromEntries(
+          Object.entries(database.propertyOverviews).filter(
+            ([propertyId]) => !resetPropertyIds.has(propertyId),
+          ),
+        ),
+        procedures: database.procedures.filter(
+          (procedure) => !resetPropertyIds.has(procedure.propertyId),
+        ),
+      }
+    : database
+  const existingPropertyIds = new Set(baseDatabase.properties.map((property) => property.id))
+  const existingSubpropertyIds = new Set(baseDatabase.subproperties.map((subproperty) => subproperty.id))
   const existingProcedureKeys = new Set(
-    database.procedures.map((procedure) => `${procedure.propertyId}:${procedure.id}`),
+    baseDatabase.procedures.map((procedure) => `${procedure.propertyId}:${procedure.id}`),
   )
   const missingProperties = seedDatabase.properties.filter((property) => !existingPropertyIds.has(property.id))
   const missingSubproperties = seedDatabase.subproperties.filter((subproperty) => !existingSubpropertyIds.has(subproperty.id))
   const missingProcedures = seedDatabase.procedures.filter(
     (procedure) => !existingProcedureKeys.has(`${procedure.propertyId}:${procedure.id}`),
   )
+  const updatedProperties = baseDatabase.properties.map((property) => {
+    const seedProperty = seedDatabase.properties.find((item) => item.id === property.id)
+    if (!seedProperty?.sourceVersion || Number(property.sourceVersion || 0) >= seedProperty.sourceVersion) {
+      return property
+    }
+
+    if (property.userEdited) {
+      return normalizeProperty({
+        ...property,
+        sourceVersion: seedProperty.sourceVersion,
+        updatedAt: now(),
+      })
+    }
+
+    return normalizeProperty({
+      ...property,
+      ...seedProperty,
+      isFavorite: property.isFavorite,
+      createdAt: property.createdAt,
+      updatedAt: now(),
+    })
+  })
+  const hasUpdatedProperties = updatedProperties.some(
+    (property, index) => property !== baseDatabase.properties[index],
+  )
   const missingSubpropertySections = Object.fromEntries(
-    Object.entries(seedDatabase.subpropertySections).filter(([subpropertyId]) => !database.subpropertySections[subpropertyId]),
+    Object.entries(seedDatabase.subpropertySections).filter(([subpropertyId]) => !baseDatabase.subpropertySections[subpropertyId]),
+  )
+  const updatedSubpropertySections = Object.fromEntries(
+    Object.entries(seedDatabase.subpropertySections).filter(([subpropertyId, sections]) => {
+    const currentSections = baseDatabase.subpropertySections[subpropertyId]
+      return (
+        sections.sourceVersion &&
+        Number(currentSections?.sourceVersion || 0) < sections.sourceVersion &&
+        !currentSections?.userEdited
+      )
+    }),
   )
   const missingOverviews = Object.fromEntries(
     Object.entries(seedDatabase.propertyOverviews).filter(
-      ([propertyId]) => !database.propertyOverviews[propertyId],
+      ([propertyId]) => !baseDatabase.propertyOverviews[propertyId],
     ),
+  )
+  const updatedOverviews = Object.fromEntries(
+    Object.entries(seedDatabase.propertyOverviews).filter(([propertyId, overview]) => {
+      const currentOverview = baseDatabase.propertyOverviews[propertyId]
+      return (
+        overview.sourceVersion &&
+        Number(currentOverview?.sourceVersion || 0) < overview.sourceVersion &&
+        !currentOverview?.userEdited
+      )
+    }),
   )
 
   if (
+    !hasUpdatedProperties &&
     missingProperties.length === 0 &&
     missingSubproperties.length === 0 &&
     missingProcedures.length === 0 &&
     Object.keys(missingSubpropertySections).length === 0 &&
-    Object.keys(missingOverviews).length === 0
+    Object.keys(updatedSubpropertySections).length === 0 &&
+    Object.keys(missingOverviews).length === 0 &&
+    Object.keys(updatedOverviews).length === 0
   ) {
     return { database, changed: false }
   }
@@ -381,18 +466,20 @@ const mergeSeedDatabase = (database, seed) => {
   return {
     changed: true,
     database: ensureDatabase({
-      ...database,
-      properties: [...database.properties, ...missingProperties],
-      subproperties: [...database.subproperties, ...missingSubproperties],
+    ...baseDatabase,
+      properties: [...updatedProperties, ...missingProperties],
+      subproperties: [...baseDatabase.subproperties, ...missingSubproperties],
       subpropertySections: {
-        ...database.subpropertySections,
+        ...baseDatabase.subpropertySections,
         ...missingSubpropertySections,
+        ...updatedSubpropertySections,
       },
       propertyOverviews: {
-        ...database.propertyOverviews,
+        ...baseDatabase.propertyOverviews,
         ...missingOverviews,
+        ...updatedOverviews,
       },
-      procedures: [...database.procedures, ...missingProcedures],
+      procedures: [...baseDatabase.procedures, ...missingProcedures],
       updatedAt: now(),
     }),
   }
@@ -452,6 +539,14 @@ export const createAdminRepository = ({ storage, seed } = {}) => {
 
   const read = () => clone(database)
 
+  const mergeSeed = (nextSeed = seed) => {
+    const merged = mergeSeedDatabase(database, nextSeed)
+    if (!merged.changed) return read()
+
+    database = saveAdminDatabase(merged.database, { storage })
+    return clone(database)
+  }
+
   const createProperty = (input) => {
     const property = normalizeProperty({
       ...input,
@@ -481,7 +576,13 @@ export const createAdminRepository = ({ storage, seed } = {}) => {
       ...database,
       properties: database.properties.map((property) =>
         property.id === propertyId
-          ? normalizeProperty({ ...property, ...updates, id: propertyId, updatedAt: now() })
+          ? normalizeProperty({
+              ...property,
+              ...updates,
+              userEdited: property.userEdited || Object.keys(updates).some((key) => key !== 'isFavorite'),
+              id: propertyId,
+              updatedAt: now(),
+            })
           : property,
       ),
     })
@@ -572,6 +673,7 @@ export const createAdminRepository = ({ storage, seed } = {}) => {
           ...OVERVIEW_DEFAULTS,
           ...(database.propertyOverviews[propertyId] || {}),
           ...overview,
+          userEdited: true,
           propertyId,
           updatedAt: now(),
         },
@@ -604,6 +706,7 @@ export const createAdminRepository = ({ storage, seed } = {}) => {
           ...SUBPROPERTY_SECTION_DEFAULTS,
           ...current,
           [section]: nextValue,
+          userEdited: true,
         },
       },
     })
@@ -836,6 +939,11 @@ export const createAdminRepository = ({ storage, seed } = {}) => {
 
   return {
     read,
+    replace: (nextDatabase) => {
+      database = ensureDatabase(sanitizeLegacyVillaKeyData(nextDatabase))
+      return clone(database)
+    },
+    mergeSeed,
     createProperty,
     updateProperty,
     deleteProperty,

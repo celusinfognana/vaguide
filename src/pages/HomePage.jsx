@@ -105,28 +105,6 @@ export default function HomePage({
           </div>
         )}
 
-        {/* Frequently Used */}
-        <div className="mb-8">
-          <h2 className="text-xl font-semibold text-text-primary mb-4">Frequently Used Procedures</h2>
-          <div className="grid grid-cols-3 gap-4">
-            <div className="p-4 bg-white border border-border-light rounded-lg hover:shadow-medium transition-all cursor-pointer">
-              <div className="text-sm font-medium text-text-primary">Early Check-in</div>
-              <div className="text-xs text-text-secondary mt-1">AGI Holdings</div>
-              <div className="mt-2 inline-block text-xs bg-accent-chat/10 text-accent-chat px-2 py-1 rounded">Chat</div>
-            </div>
-            <div className="p-4 bg-white border border-border-light rounded-lg hover:shadow-medium transition-all cursor-pointer">
-              <div className="text-sm font-medium text-text-primary">Late Check-out</div>
-              <div className="text-xs text-text-secondary mt-1">Air MGMT</div>
-              <div className="mt-2 inline-block text-xs bg-accent-chat/10 text-accent-chat px-2 py-1 rounded">Chat</div>
-            </div>
-            <div className="p-4 bg-white border border-border-light rounded-lg hover:shadow-medium transition-all cursor-pointer">
-              <div className="text-sm font-medium text-text-primary">Lock Code Not Working</div>
-              <div className="text-xs text-text-secondary mt-1">Barron Management</div>
-              <div className="mt-2 inline-block text-xs bg-accent-call/10 text-accent-call px-2 py-1 rounded">Call & Chat</div>
-            </div>
-          </div>
-        </div>
-
         {/* Needs Attention */}
         <div>
           <h2 className="text-xl font-semibold text-text-primary mb-4 flex items-center gap-2">

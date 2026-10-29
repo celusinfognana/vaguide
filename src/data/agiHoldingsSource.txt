@@ -1,0 +1,1451 @@
+# 1. MAIN PROPERTY / COLLECTION
+INFORMATION
+
+**Property
+/ Collection Name: **AGI Holdings (Paul Chopra)
+
+**Property
+Description: **Short-term rental property collection managed for
+AGI Holdings / Paul Chopra, with the supplied listings located in
+Scottsdale, Arizona.
+
+**Overview
+Title: **AGI Holdings — Guest Operations
+
+**Overview:
+**Central operating procedures for screening, guest communication,
+reservations, reviews, payments, access and lockouts, emergencies,
+amenities, cleaning/maintenance, and property-specific utility
+access. General procedures apply across the collection unless a
+listing-specific instruction is noted.
+
+## Important Property
+Information
+
+- Minimum
+	guest age is 26. Airbnb verification requires ID and phone number.
+- Same-day
+	last-minute bookings after 4 AM are not allowed; otherwise,
+	last-minute bookings are accepted according to the source.
+- Parties/events
+	and over-occupancy are not allowed. Visitors are allowed within
+	occupancy; over-limit requests require host guidance.
+- Pets
+	are allowed in all properties with no restrictions stated in the
+	source. Pet fee is $100 per pet per stay; the fee can be waived for
+	service animals.
+- Pool
+	heating costs $100/day and hot tub usage costs $35/night. Both
+	require at least 12 hours’ notice before arrival, per update dated
+	19 October 2025.
+- Early
+	check-in/late check-out requires host approval. The source mentions
+	a one-time $150 fee with 24-hour advance notice, but says not to
+	disclose this host-charged seasonal fee to guests.
+- Before
+	apologizing to any guest complaint, reach out to the host. If the
+	client is handling an inquiry chat, GCSP must not respond to that
+	guest.
+- When
+	adding an internal note, update the same information on WhatsApp.
+	Start the shift by addressing the team with the agent name on
+	WhatsApp.
+
+## Rules
+
+- Negative
+	Airbnb reviews on a prospective guest's profile: ask the host via
+	SMS. No-review and positive-review profiles may be accepted, subject
+	to other screening rules.
+- Respond
+	to guests who leave 4-star or 5-star reviews. Notify the host for
+	reviews of 3 stars or lower.
+- Long-term
+	stays are accepted; contact the host for assistance. Third-party
+	bookings are accepted but require host consultation.
+- Filming/photoshoots
+	are case-by-case: obtain the purpose and seek host confirmation.
+	Viewing requests require host permission.
+- Minimum-night
+	requests may be accepted if they fill a gap, with host approval.
+- Do
+	not send payment requests for any reservation on Airbnb, Vrbo or
+	Booking.com. Inform the host of payment-related actions.
+- Package
+	delivery and luggage storage are not allowed at any listing.
+- Reservation
+	alterations require host confirmation and property availability. The
+	source says cancellations are not allowed; contact the host for any
+	cancellation request.
+
+## Contacts
+
+**Contact
+Name: **Paul Chopra / Host
+
+**Role:
+**Host / owner
+
+**Phone:
+**+1 602-502-7900
+
+**Email:
+**Not provided in source
+
+**When
+to Contact: **Host approval, guest inquiries, complaints,
+payment-related actions, reservations and operational issues.
+
+**Contact
+Name: **Kaitlan Hunt
+
+**Role:
+**Emergency contact — priority 1
+
+**Phone:
+**+1 480-310-1448
+
+**Email:
+**Not provided in source
+
+**When
+to Contact: **First emergency contact in the stated emergency
+order.
+
+**Contact
+Name: **Paul
+
+**Role:
+**Emergency contact — priority 2
+
+**Phone:
+**+1 602-502-7900
+
+**Email:
+**Not provided in source
+
+**When
+to Contact: **Contact if Kaitlan Hunt is unavailable or escalation
+continues.
+
+**Signature:
+**AGI Holdings Team
+
+**Operational
+systems mentioned: **Guesty, Airbnb, Vrbo, Booking.com, WhatsApp,
+SMS and Breezeway.
+
+# 
+
+# 3. PROCEDURES
+
+General
+Procedures belong to the main collection and apply when AGI Holdings
+(Paul Chopra) or any listed subproperty is selected, unless a
+listing-specific exception is stated.
+
+## Guest
+Communication, Host Coordination & Complaints
+
+**General
+Procedure: **YES — General Procedure
+
+**Procedure
+Name: **Guest Communication, Host Coordination & Complaints
+
+**Channel:
+**Chat / Call
+
+**Category:
+**Other Requests
+
+**Description:
+**Follow host communication preferences and avoid responding when
+the client is already handling a guest inquiry.
+
+**Keywords:
+**host coordination, WhatsApp, complaints, internal note, apology,
+client handling
+
+### Process Flow
+
+**Step
+1 — Check who is handling the conversation [Important]: **If the
+client is handling an inquiry chat, GCSP must not respond to that
+guest.
+
+**Step
+2 — Route inquiries to the host [Contact]: **Promptly delegate
+guest queries to the host via WhatsApp for an answer, then guide the
+guest accordingly.
+
+**Step
+3 — Complaints and apologies [Important]: **Reach out to the host
+before apologizing to any guest complaint.
+
+**Step
+4 — Internal notes [Normal]: **When adding an internal note,
+update the same information on WhatsApp.
+
+**Step
+5 — Shift start [Normal]: **Start the shift by addressing the
+team with the agent name on WhatsApp.
+
+**Procedure
+Completion: **Follow the host's guidance, respond only when GCSP is
+not instructed to stand back, and keep internal notes and WhatsApp
+updates aligned.
+
+## Guest Screening &
+Booking Eligibility
+
+**General
+Procedure: **YES — General Procedure
+
+**Procedure
+Name: **Guest Screening & Booking Eligibility
+
+**Channel:
+**Chat
+
+**Category:
+**Reservations
+
+**Description:
+**Apply verification, review, age, last-minute and booking-type
+rules.
+
+**Keywords:
+**ID, phone number, reviews, minimum age, last-minute booking,
+third-party, long-term stay
+
+### Process Flow
+
+**Step
+1 — Verify guest identity [Important]: **Airbnb verification
+requires ID and phone number.
+
+**Step
+2 — Review guest profile [Normal]: **Positive reviews: accept. No
+reviews: accept. Negative reviews: ask the host via SMS.
+
+**Step
+3 — Minimum age [Warning]: **Minimum age requirement is 26.
+
+**Step
+4 — Same-day last-minute bookings [Warning]: **A same-day
+last-minute booking after 4 AM is not allowed. Otherwise, last-minute
+bookings are accepted.
+
+**Step
+5 — Long-term and third-party bookings [Contact]: **Long-term
+stays are accepted; contact the host for further assistance.
+Third-party bookings are accepted, but check with the host.
+
+**Procedure
+Completion: **Apply all screening rules and obtain host guidance
+where the source requires it.
+
+## Minimum Nights &
+Gap-Fill Requests
+
+**General
+Procedure: **YES — General Procedure
+
+**Procedure
+Name: **Minimum Nights & Gap-Fill Requests
+
+**Channel:
+**Chat
+
+**Category:
+**Reservations
+
+**Description:
+**Assess below-minimum-night requests that may fill a calendar gap.
+
+**Keywords:
+**minimum nights, gap, shorter stay, host approval
+
+### Process Flow
+
+**Step
+1 — Check requested dates [Normal]: **Confirm the listing's
+minimum-night requirement and whether the request fills a gap.
+
+**Step
+2 — Seek host approval [Contact]: **Requests may be accepted if
+they fill the gap, but check with the host before confirming.
+
+**Procedure
+Completion: **Do not confirm a below-minimum request until the host
+approves.
+
+## Parties, Occupancy
+& Visitors
+
+**General
+Procedure: **YES — General Procedure
+
+**Procedure
+Name: **Parties, Occupancy & Visitors
+
+**Channel:
+**Chat
+
+**Category:
+**Occupancy / Events
+
+**Description:
+**Apply restrictions on parties and occupancy and route over-limit
+visitor requests to the host.
+
+**Keywords:
+**party, event, occupancy, visitors, gathering
+
+### Process Flow
+
+**Step
+1 — Parties and events [Warning]: **Parties and events are not
+allowed.
+
+**Step
+2 — Over-occupancy [Warning]: **Over-occupancy is not allowed. If
+a guest asks about exceeding occupancy, check with the host.
+
+**Step
+3 — Visitors within limit [Normal]: **Visitors are allowed within
+the occupancy limit.
+
+**Step
+4 — Visitors exceeding limit [Contact]: **If visitor numbers
+exceed the occupancy limit, check with the host.
+
+**Procedure
+Completion: **Communicate the applicable rule and obtain host
+guidance for any over-limit visitor inquiry.
+
+## Filming,
+Photoshoots & Property Viewing
+
+**General
+Procedure: **YES — General Procedure
+
+**Procedure
+Name: **Filming, Photoshoots & Property Viewing
+
+**Channel:
+**Chat
+
+**Category:
+**Other Requests
+
+**Description:
+**Handle filming and viewing requests only after host confirmation.
+
+**Keywords:
+**filming, photoshoot, property viewing, permission
+
+### Process Flow
+
+**Step
+1 — Filming/photoshoots [Normal]: **These are considered case by
+case. Ask the guest for the purpose of the photoshoot and reach out
+to the host for confirmation.
+
+**Step
+2 — Viewing request [Contact]: **Reach out to the host and ask
+for permission before responding to the guest.
+
+**Procedure
+Completion: **Do not confirm filming, photoshoots or property
+viewing until the host has approved.
+
+## Payments &
+Payment Requests
+
+**General
+Procedure: **YES — General Procedure
+
+**Procedure
+Name: **Payments & Payment Requests
+
+**Channel:
+**Chat
+
+**Category:
+**Payments / Refunds
+
+**Description:
+**Keep the host informed of payment-related actions and do not send
+payment requests.
+
+**Keywords:
+**payment, payment request, Airbnb, Vrbo, Booking.com
+
+### Process Flow
+
+**Step
+1 — Notify host [Contact]: **Inform the host of any
+payment-related actions.
+
+**Step
+2 — Do not request payment [Warning]: **Do not send payment
+requests for any reservations on Airbnb, Vrbo or Booking.com.
+
+**Procedure
+Completion: **Follow the host's direction and do not send payment
+requests through the booking platforms.
+
+## Reservation
+Alterations & Cancellations
+
+**General
+Procedure: **YES — General Procedure
+
+**Procedure
+Name: **Reservation Alterations & Cancellations
+
+**Channel:
+**Chat
+
+**Category:
+**Reservations
+
+**Description:
+**Handle modification and cancellation requests only with host
+involvement.
+
+**Keywords:
+**alteration, reservation modification, cancellation, availability
+
+### Process Flow
+
+**Step
+1 — Reservation alterations [Contact]: **Alterations are allowed
+if the property is available, but check with the host before
+confirming.
+
+**Step
+2 — Cancellation requests [Warning]: **The source states that
+cancellation is not allowed. Check with the host for any cancellation
+request.
+
+**Procedure
+Completion: **Do not confirm a change or cancellation until the
+host has provided guidance.
+
+## Alternative
+Listing Suggestions
+
+**General
+Procedure: **YES — General Procedure
+
+**Procedure
+Name: **Alternative Listing Suggestions
+
+**Channel:
+**Chat
+
+**Category:
+**Reservations
+
+**Description:
+**Suggest a similar property when dates are unavailable, subject to
+minimum-night fit and host confirmation.
+
+**Keywords:
+**alternative listing, unavailable dates, similar property, minimum
+nights
+
+### Process Flow
+
+**Step
+1 — Find a suitable alternative [Normal]: **If the requested
+dates are unavailable, suggest a similar property only if its
+minimum-night requirement matches the guest's request.
+
+**Step
+2 — Confirm with host [Contact]: **Get confirmation from the host
+before proceeding.
+
+**Procedure
+Completion: **Offer an alternative only after checking
+minimum-night fit and obtaining host confirmation.
+
+## Guest Reviews &
+Review Responses
+
+**General
+Procedure: **YES — General Procedure
+
+**Procedure
+Name: **Guest Reviews & Review Responses
+
+**Channel:
+**Chat
+
+**Category:
+**Post-Stay
+
+**Description:
+**Apply the account's review response and host-notification rules.
+
+**Keywords:
+**review response, 5-star, 4-star, 3-star, negative review
+
+### Process Flow
+
+**Step
+1 — Respond to post-stay reviews [Normal]: **For guests leaving
+4-star or 5-star reviews, proceed with responses.
+
+**Step
+2 — Notify host for low ratings [Contact]: **For guests leaving
+3-star reviews or lower, notify the host.
+
+**Step
+3 — Screening review history [Contact]: **For negative Airbnb
+reviews on a prospective guest's profile, ask the host via SMS.
+No-review and positive-review profiles may be accepted.
+
+**Procedure
+Completion: **Respond or notify the host according to whether this
+is a post-stay review or a prospective guest's existing review.
+
+## Pool Heating &
+Hot Tub Requests
+
+**General
+Procedure: **YES — General Procedure
+
+**Procedure
+Name: **Pool Heating & Hot Tub Requests
+
+**Channel:
+**Chat
+
+**Category:
+**During Stay
+
+**Description:
+**Communicate the latest source-listed fees and notice requirement
+for pool heat and hot tub use.
+
+**Keywords:
+**pool heat, pool heating, hot tub, $100/day, $35/night, 12 hours
+
+### Process Flow
+
+**Step
+1 — Pool heating [Charge]: **Pool heating is $100 per day for all
+houses, according to the update dated 19 October 2025.
+
+**Step
+2 — Hot tub [Charge]: **Hot tub usage is $35 per night, according
+to the update dated 19 October 2025.
+
+**Step
+3 — Notice requirement [Important]: **Both pool heating and hot
+tub use require at least 12 hours' notice before arrival.
+
+**Step
+4 — During-stay pool heating request [Normal]: **If the guest
+requests pool heating during their stay, send the saved reply “Pool
+heating during stay.”
+
+**Procedure
+Completion: **Use the current saved reply and ensure the required
+notice period is met.
+
+## Pet Policy &
+Service Animals
+
+**General
+Procedure: **YES — General Procedure
+
+**Procedure
+Name: **Pet Policy & Service Animals
+
+**Channel:
+**Chat
+
+**Category:
+**Pets / Visitors
+
+**Description:
+**Apply the pet fee and service-animal fee waiver.
+
+**Keywords:
+**pets, pet fee, $100, service animal, waiver
+
+### Process Flow
+
+**Step
+1 — Pets [Charge]: **Pets are allowed in all properties with no
+restrictions stated in the source. The fee is $100 per pet per stay.
+
+**Step
+2 — Service animals [Important]: **The pet fee can be waived for
+service animals. The relevant saved reply and check-in instruction
+message contain this information.
+
+**Procedure
+Completion: **Communicate the pet policy and apply the
+service-animal fee waiver as described in the saved reply/check-in
+instructions.
+
+## Early Check-In &
+Late Check-Out
+
+**General
+Procedure: **YES — General Procedure
+
+**Procedure
+Name: **Early Check-In & Late Check-Out
+
+**Channel:
+**Chat
+
+**Category:
+**Check-in / Check-out
+
+**Description:
+**Route early check-in and late check-out requests to the host and
+apply the advance-notice rule.
+
+**Keywords:
+**early check-in, late check-out, $150, 24 hours, host approval
+
+### Process Flow
+
+**Step
+1 — Seek host approval [Contact]: **Initially check with the host
+for approval.
+
+**Step
+2 — Advance notice [Important]: **The source says the request
+must be submitted at least 24 hours in advance.
+
+**Step
+3 — Host fee — internal only [Warning]: **The source mentions a
+one-time $150 fee, charged by the host depending on the season, and
+explicitly says not to inform the guest about this charge.
+
+**Procedure
+Completion: **Wait for host approval before confirming. Do not
+disclose the host-charged seasonal fee to the guest.
+
+## Lockouts &
+Backup Key
+
+**General
+Procedure: **YES — General Procedure
+
+**Procedure
+Name: **Lockouts & Backup Key
+
+**Channel:
+**Call
+
+**Category:
+**Lockouts
+
+**Description:
+**Direct lockout requests to the host first and use the documented
+backup-key process if needed.
+
+**Keywords:
+**lockout, access code, backup key, lockbox, 2580
+
+### Process Flow
+
+**Step
+1 — Host handles lockout first [Contact]: **In lockout
+situations, the guest will reach out to the host. The source states
+all emergency calls are handled by the host initially.
+
+**Step
+2 — Check check-in instructions [Normal]: **Lock codes are
+included in the check-in instructions.
+
+**Step
+3 — Backup key [Important]: **If the issue remains unresolved, a
+backup key is in the lockbox outside each house. The source lists
+lockbox code 2580 for all properties.
+
+**Procedure
+Completion: **Follow the host-first escalation path and use the
+backup key only if the lockout remains unresolved.
+
+## Emergency
+Escalation
+
+**General
+Procedure: **YES — General Procedure
+
+**Procedure
+Name: **Emergency Escalation
+
+**Channel:
+**Call
+
+**Category:
+**Emergency
+
+**Description:
+**Follow the account's emergency contact priority order.
+
+**Keywords:
+**emergency, urgent, Kaitlan Hunt, Paul
+
+### Process Flow
+
+**Step
+1 — Priority 1 [Contact]: **Call Kaitlan Hunt at +1 480-310-1448.
+
+**Step
+2 — Priority 2 [Contact]: **If further assistance is required or
+the first contact is unavailable, call Paul at +1 602-502-7900.
+
+**Procedure
+Completion: **Escalate in the stated priority order and keep the
+host informed.
+
+## Cleaning,
+Maintenance & Missing Amenities
+
+**General
+Procedure: **YES — General Procedure
+
+**Procedure
+Name: **Cleaning, Maintenance & Missing Amenities
+
+**Channel:
+**Chat / Call
+
+**Category:
+**Maintenance
+
+**Description:
+**Route property condition and missing amenity reports to the host.
+
+**Keywords:
+**cleaning, maintenance, missing amenities, Breezeway
+
+### Process Flow
+
+**Step
+1 — Contact the host [Contact]: **Reach out to the host for any
+cleaning or maintenance issues.
+
+**Step
+2 — Host coordination [Normal]: **The host will communicate with
+the cleaning/maintenance team through Breezeway.
+
+**Procedure
+Completion: **Share the issue with the host and follow the host's
+coordination and response.
+
+## Check-In Form &
+ID Proof
+
+**General
+Procedure: **YES — General Procedure
+
+**Procedure
+Name: **Check-In Form & ID Proof
+
+**Channel:
+**Chat
+
+**Category:
+**Check-in / Check-out
+
+**Description:
+**Ensure guests complete the automated check-in form and attach ID
+proof.
+
+**Keywords:
+**check-in form, Guesty, ID proof, verification
+
+### Process Flow
+
+**Step
+1 — Automated form [Important]: **Check-in forms are sent in an
+automated message through Guesty and must be filled out by all
+guests.
+
+**Step
+2 — ID attachment [Important]: **ID proof must be attached along
+with the check-in form.
+
+**Procedure
+Completion: **Direct guests to complete the automated Guesty form
+and attach the required ID proof.
+
+## Pack n Play / Baby
+Equipment
+
+**General
+Procedure: **YES — General Procedure
+
+**Procedure
+Name: **Pack n Play / Baby Equipment
+
+**Channel:
+**Chat
+
+**Category:
+**During Stay
+
+**Description:
+**Advise guests about Pack n Play availability and the 24-hour
+notice requirement.
+
+**Keywords:
+**Pack n Play, baby equipment, 24 hours
+
+### Process Flow
+
+**Step
+1 — Availability and notice [Normal]: **Pack n Play is available
+in all properties. The guest should be informed 24 hours prior.
+
+**Procedure
+Completion: **Provide the availability information in advance,
+following the 24-hour timing instruction.
+
+## Package Delivery &
+Luggage Storage
+
+**General
+Procedure: **YES — General Procedure
+
+**Procedure
+Name: **Package Delivery & Luggage Storage
+
+**Channel:
+**Chat
+
+**Category:
+**During Stay
+
+**Description:
+**Explain that packages and luggage storage are not allowed at the
+properties.
+
+**Keywords:
+**package delivery, luggage storage, baggage
+
+### Process Flow
+
+**Step
+1 — Package delivery [Warning]: **Package delivery is not allowed
+at any listing.
+
+**Step
+2 — Luggage storage [Warning]: **Luggage storage is not allowed
+at any listing.
+
+**Procedure
+Completion: **Communicate both restrictions clearly.
+
+## Lost / Left Items
+
+**General
+Procedure: **YES — General Procedure
+
+**Procedure
+Name: **Lost / Left Items
+
+**Channel:
+**Chat
+
+**Category:
+**Post-Stay
+
+**Description:
+**Coordinate shipment of items left behind, with shipping costs
+paid by the guest.
+
+**Keywords:
+**lost item, left item, shipping cost, host
+
+### Process Flow
+
+**Step
+1 — Contact host [Contact]: **If a guest reports a left item,
+reach out to the host for assistance.
+
+**Step
+2 — Shipping costs [Normal]: **The item can be shipped, with the
+shipping cost covered by the guest.
+
+**Procedure
+Completion: **Coordinate with the host and explain that the guest
+is responsible for shipping costs.
+
+## Discount Requests
+
+**General
+Procedure: **YES — General Procedure
+
+**Procedure
+Name: **Discount Requests
+
+**Channel:
+**Chat
+
+**Category:
+**Payments / Refunds
+
+**Description:
+**Refer discount inquiries to the host.
+
+**Keywords:
+**discount, special offer, price reduction
+
+### Process Flow
+
+**Step
+1 — Check with host [Contact]: **If the guest inquires about
+discounts, check with the host.
+
+**Procedure
+Completion: **Do not promise or deny a discount until the host
+provides guidance.
+
+## Coffee Pods &
+Golf Location
+
+**General
+Procedure: **YES — General Procedure
+
+**Procedure
+Name: **Coffee Pods & Golf Location
+
+**Channel:
+**Chat
+
+**Category:
+**During Stay
+
+**Description:
+**Answer the source-listed coffee-pod question and golf course
+detail for the relevant property.
+
+**Keywords:
+**coffee pods, golf, Orange Tree, 5701 E Cactus Road
+
+### Process Flow
+
+**Step
+1 — Starter coffee pods [Normal]: **Starter coffee pods are
+provided at all properties, approximately 8–10 pods.
+
+**Step
+2 — Golf course for 5701 E Cactus Road [Normal]: **The public
+golf course near the listing is called Orange Tree.
+
+**Procedure
+Completion: **Share only the source-listed amenity information
+relevant to the guest's question.
+
+# 4. SUBPROPERTY /
+SUBCOLLECTIONS
+
+The
+following eight properties are taken from the supplied
+property-listing workbook. Listing nicknames and addresses are
+preserved from the file.
+
+## Subproperty 01:
+(49th)15238
+
+**Subproperty
+/ Collection Name: **(49th)15238
+
+**Description:
+**AGI Holdings listing at 15238 North 49th Street, Scottsdale, AZ
+85254, United States
+
+**Overview
+Title: **Property-specific operating information
+
+**Overview:
+**Apply AGI Holdings General Procedures and the property-specific
+notes in Section 5, where applicable.
+
+**Important
+Information: **See utility access and special amenity details in
+Section 5.
+
+**Rules:
+**Follow the general AGI Holdings rules and any property-specific
+instructions documented in the source.
+
+**Contacts:
+**Use the contacts listed in Section 2 unless otherwise directed by
+the host.
+
+**Property
+Information: **15238 North 49th Street, Scottsdale, AZ 85254,
+United States
+
+## Subproperty 02:
+(50th) house
+
+**Subproperty
+/ Collection Name: **(50th) house
+
+**Description:
+**AGI Holdings listing at 5009 E Cactus Rd, Scottsdale, AZ 85254,
+USA
+
+**Overview
+Title: **Property-specific operating information
+
+**Overview:
+**Apply AGI Holdings General Procedures and the property-specific
+notes in Section 5, where applicable.
+
+**Important
+Information: **See utility access and special amenity details in
+Section 5.
+
+**Rules:
+**Follow the general AGI Holdings rules and any property-specific
+instructions documented in the source.
+
+**Contacts:
+**Use the contacts listed in Section 2 unless otherwise directed by
+the host.
+
+**Property
+Information: **5009 E Cactus Rd, Scottsdale, AZ 85254, USA
+
+## Subproperty 03:
+(53rd) 16836
+
+**Subproperty
+/ Collection Name: **(53rd) 16836
+
+**Description:
+**AGI Holdings listing at 16836 North 53rd Street, Scottsdale, AZ
+85254, United States
+
+**Overview
+Title: **Property-specific operating information
+
+**Overview:
+**Apply AGI Holdings General Procedures and the property-specific
+notes in Section 5, where applicable.
+
+**Important
+Information: **See utility access and special amenity details in
+Section 5.
+
+**Rules:
+**Follow the general AGI Holdings rules and any property-specific
+instructions documented in the source.
+
+**Contacts:
+**Use the contacts listed in Section 2 unless otherwise directed by
+the host.
+
+**Property
+Information: **16836 North 53rd Street, Scottsdale, AZ 85254,
+United States
+
+## Subproperty 04:
+(Beck Ln) 5215 beck
+
+**Subproperty
+/ Collection Name: **(Beck Ln) 5215 beck
+
+**Description:
+**AGI Holdings listing at 5215 E Beck Ln, Scottsdale, AZ 85254, USA
+
+**Overview
+Title: **Property-specific operating information
+
+**Overview:
+**Apply AGI Holdings General Procedures and the property-specific
+notes in Section 5, where applicable.
+
+**Important
+Information: **See utility access and special amenity details in
+Section 5.
+
+**Rules:
+**Follow the general AGI Holdings rules and any property-specific
+instructions documented in the source.
+
+**Contacts:
+**Use the contacts listed in Section 2 unless otherwise directed by
+the host.
+
+**Property
+Information: **5215 E Beck Ln, Scottsdale, AZ 85254, USA
+
+## Subproperty 05:
+4948 East Larkspur D
+
+**Subproperty
+/ Collection Name: **4948 East Larkspur D
+
+**Description:
+**AGI Holdings listing at 4948 East Larkspur Drive, Scottsdale, AZ
+85254, United States
+
+**Overview
+Title: **Property-specific operating information
+
+**Overview:
+**Apply AGI Holdings General Procedures and the property-specific
+notes in Section 5, where applicable.
+
+**Important
+Information: **See utility access and special amenity details in
+Section 5.
+
+**Rules:
+**Follow the general AGI Holdings rules and any property-specific
+instructions documented in the source.
+
+**Contacts:
+**Use the contacts listed in Section 2 unless otherwise directed by
+the host.
+
+**Property
+Information: **4948 East Larkspur Drive, Scottsdale, AZ 85254,
+United States
+
+## Subproperty 06:
+5701  E Cactus Road
+
+**Subproperty
+/ Collection Name: **5701  E Cactus Road
+
+**Description:
+**AGI Holdings listing at 5701 E Cactus Rd, Scottsdale, AZ 85254,
+USA
+
+**Overview
+Title: **Property-specific operating information
+
+**Overview:
+**Apply AGI Holdings General Procedures and the property-specific
+notes in Section 5, where applicable.
+
+**Important
+Information: **See utility access and special amenity details in
+Section 5.
+
+**Rules:
+**Follow the general AGI Holdings rules and any property-specific
+instructions documented in the source.
+
+**Contacts:
+**Use the contacts listed in Section 2 unless otherwise directed by
+the host.
+
+**Property
+Information: **5701 E Cactus Rd, Scottsdale, AZ 85254, USA
+
+## Subproperty 07:
+6734 E Grandview Dr
+
+**Subproperty
+/ Collection Name: **6734 E Grandview Dr
+
+**Description:
+**AGI Holdings listing at 6734 East Grandview Drive, Scottsdale, AZ
+85254, United States
+
+**Overview
+Title: **Property-specific operating information
+
+**Overview:
+**Apply AGI Holdings General Procedures and the property-specific
+notes in Section 5, where applicable.
+
+**Important
+Information: **See utility access and special amenity details in
+Section 5.
+
+**Rules:
+**Follow the general AGI Holdings rules and any property-specific
+instructions documented in the source.
+
+**Contacts:
+**Use the contacts listed in Section 2 unless otherwise directed by
+the host.
+
+**Property
+Information: **6734 East Grandview Drive, Scottsdale, AZ 85254,
+United States
+
+## Subproperty 08:
+Kings Villa 64th Pl
+
+**Subproperty
+/ Collection Name: **Kings Villa 64th Pl
+
+**Description:
+**AGI Holdings listing at 16419 N 64th Pl, Scottsdale, AZ 85254,
+USA
+
+**Overview
+Title: **Property-specific operating information
+
+**Overview:
+**Apply AGI Holdings General Procedures and the property-specific
+notes in Section 5, where applicable.
+
+**Important
+Information: **See utility access and special amenity details in
+Section 5.
+
+**Rules:
+**Follow the general AGI Holdings rules and any property-specific
+instructions documented in the source.
+
+**Contacts:
+**Use the contacts listed in Section 2 unless otherwise directed by
+the host.
+
+**Property
+Information: **16419 N 64th Pl, Scottsdale, AZ 85254, USA
+
+# 5. SUBPROPERTY /
+COLLECTION PROCEDURES
+
+Only
+property-specific instructions present in the compiled source are
+listed below. Utility access details are internal operational
+information; share only with authorized team members when needed.
+
+## 5215 E Beck Lane —
+Main water shut-off and electrical panel
+
+**General
+Procedure: **NO — Subproperty-Specific Procedure / Exception
+
+**Procedure
+Name: **Main water shut-off and electrical panel
+
+**Channel:
+**Call / Internal Operations
+
+**Category:
+**Maintenance or Access / Lockouts, as applicable
+
+**Description:
+**The main water shut-off has a door key lock with an extra key by
+the front door. Source-listed code: 2580. The electrical panel is
+also referenced; confirm its exact location from the source image if
+needed.
+
+## 6734 E Grandview
+Dr Scottsdale AZ 85254 — Electrical panel and water shut-off
+
+**General
+Procedure: **NO — Subproperty-Specific Procedure / Exception
+
+**Procedure
+Name: **Electrical panel and water shut-off
+
+**Channel:
+**Call / Internal Operations
+
+**Category:
+**Maintenance or Access / Lockouts, as applicable
+
+**Description:
+**Electrical panel is on the west side of the home. The main water
+valve and door key lock are hanging from it. Source-listed code:
+2580.
+
+## 15238 N 49th
+Street Scottsdale AZ 85254 — Electrical box, water shut-off and
+backup key
+
+**General
+Procedure: **NO — Subproperty-Specific Procedure / Exception
+
+**Procedure
+Name: **Electrical box, water shut-off and backup key
+
+**Channel:
+**Call / Internal Operations
+
+**Category:
+**Maintenance or Access / Lockouts, as applicable
+
+**Description:
+**Electrical box is on the left side of the front of the house when
+viewed from the street. Main water shut-off is below the front
+windows toward the right of the home. Extra key lockbox is on a
+backyard wall. Source-listed code: 2580.
+
+## 5009 E Cactus Rd
+Scottsdale AZ 85254 — Water shut-off, key box and electrical panel
+
+**General
+Procedure: **NO — Subproperty-Specific Procedure / Exception
+
+**Procedure
+Name: **Water shut-off, key box and electrical panel
+
+**Channel:
+**Call / Internal Operations
+
+**Category:
+**Maintenance or Access / Lockouts, as applicable
+
+**Description:
+**Water shut-off is in front of the house, with the door key box
+hanging from it; source-listed code: 2580. Electrical panel is at the
+back of the house, to the left when looking at the back door from the
+backyard.
+
+## 16419 N 64th Place
+Scottsdale AZ 85254 — Water shut-off, key lock and electrical
+panels
+
+**General
+Procedure: **NO — Subproperty-Specific Procedure / Exception
+
+**Procedure
+Name: **Water shut-off, key lock and electrical panels
+
+**Channel:
+**Call / Internal Operations
+
+**Category:
+**Maintenance or Access / Lockouts, as applicable
+
+**Description:
+**Main water valve is in front of the house near the front door.
+Extra key door lock hangs from it; source-listed code: 2580.
+Electrical panels are in front of the home to the left when looking
+at the home from the street.
+
+## 5701 E Cactus Rd
+Scottsdale AZ 85254 — Casita and main-house utilities
+
+**General
+Procedure: **NO — Subproperty-Specific Procedure / Exception
+
+**Procedure
+Name: **Casita and main-house utilities
+
+**Channel:
+**Call / Internal Operations
+
+**Category:
+**Maintenance or Access / Lockouts, as applicable
+
+**Description:
+**Casita electrical panel and main water shut-off are between the
+main home and casita. Main-house electrical panel is on the west side
+of the house. Main-house water shut-off is at the front of the home
+between the front door and garages. This listing is also associated
+with the public Orange Tree golf course.
+
+## All listed
+properties — Backup key / lockout
+
+**General
+Procedure: **NO — Subproperty-Specific Procedure / Exception
+
+**Procedure
+Name: **Backup key / lockout
+
+**Channel:
+**Call / Internal Operations
+
+**Category:
+**Maintenance or Access / Lockouts, as applicable
+
+**Description:
+**The source says a backup key is in a lockbox outside each house
+and gives code 2580 for all properties if the access code in the
+check-in instructions does not resolve the lockout.
+
+## All listed
+properties — Pool heating and hot tub
+
+**General
+Procedure: **NO — Subproperty-Specific Procedure / Exception
+
+**Procedure
+Name: **Pool heating and hot tub
+
+**Channel:
+**Call / Internal Operations
+
+**Category:
+**Maintenance or Access / Lockouts, as applicable
+
+**Description:
+**Pool heating: $100/day; hot tub: $35/night. Both require at least
+12 hours' notice before arrival, per update dated 19 October 2025.
+During-stay pool-heating requests use saved reply “Pool heating
+during stay.”
+
+# 6. ADDITIONAL
+SUBPROPERTY / COLLECTION
+
+All
+eight supplied listings are included in Section 4. No additional
+property group was supplied.
+
+# 7. ADDITIONAL
+INFORMATION
+
+## Items to Confirm
+with the Host
+
+- The
+	early check-in/late check-out procedure mentions a one-time $150 fee
+	and 24-hour advance notice, but says the host charges the fee
+	depending on the season and the team must not disclose it to guests.
+	Confirm the current approval and guest-facing wording.
+- The
+	source says pets have no restrictions while also setting a $100
+	per-pet-per-stay fee. Confirm whether any property-specific pet
+	restrictions exist outside this compiled document.
+- The
+	check-in form section says all guests must complete the form and
+	attach ID proof, while the screening section says Airbnb
+	verification requires ID and phone number. Confirm whether every
+	guest or only the primary guest must attach ID.
+- Cancellation
+	is described as not allowed; the process is to check with the host
+	for any cancellation request. Confirm whether this is still the
+	intended policy across all channels.
+- Utility
+	access details are provided for six specific properties, while the
+	lockout section says all properties have an external backup-key
+	lockbox with code 2580. Verify the current accuracy of all physical
+	access information before relying on it.
+- The
+	source lists a public golf course named Orange Tree for 5701 E
+	Cactus Road. No booking, fee, or access arrangement is supplied; do
+	not imply the course is included with the stay.
+- Pool
+	and hot tub fees are from an update dated 19 October 2025. Confirm
+	they remain current before quoting them.
+
+## Source Scope
+
+Prepared
+solely from “COMPILED PROCEDURES - AGI Holdings-Paul Chopra.odt”
+and “AGI Holdings-Paul Chopra - PROPERTY LISTINGS.xlsx”. The
+property workbook contains eight listings. No external information
+was added. Procedures are consolidated into workflows; ambiguous
+source instructions are flagged for confirmation rather than silently
+resolved.

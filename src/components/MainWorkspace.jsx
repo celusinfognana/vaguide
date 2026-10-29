@@ -30,6 +30,9 @@ export default function MainWorkspace({
   adminDatabase,
   adminRepository,
   onAdminDatabaseChange,
+  isReadOnlyOfflineCollection,
+  onRetryServerConnection,
+  serverConnected,
 }) {
   return (
     <main className="flex-1 overflow-hidden mt-16">
@@ -79,6 +82,8 @@ export default function MainWorkspace({
           allProperties={allProperties}
           activeWorkspaceTab={activeWorkspaceTab}
           onSelectWorkspaceTab={onSelectWorkspaceTab}
+          isReadOnlyOfflineCollection={isReadOnlyOfflineCollection}
+          onRetryServerConnection={onRetryServerConnection}
         />
       )}
 
@@ -106,6 +111,8 @@ export default function MainWorkspace({
           adminRepository={adminRepository}
           onAdminDatabaseChange={onAdminDatabaseChange}
           onShowToast={onShowToast}
+          serverConnected={serverConnected}
+          onRetryServerConnection={onRetryServerConnection}
         />
       )}
     </main>

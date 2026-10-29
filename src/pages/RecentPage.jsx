@@ -18,31 +18,35 @@ export default function RecentPage({ onPropertySelect }) {
         </div>
 
         {/* Recent Items List */}
-        <div className="space-y-3">
-          {mockRecentItems.map((item, idx) => (
-            <button
-              key={idx}
-              onClick={() => {
-                if (item.type === 'property') {
-                  onPropertySelect(item.id)
-                }
-              }}
-              className="w-full p-4 bg-white border border-border-light rounded-lg hover:shadow-soft transition-all text-left flex items-center justify-between"
-            >
-              <div className="flex items-start gap-4 flex-1">
-                <Clock size={18} className="text-text-secondary mt-1 flex-shrink-0" />
-                <div className="flex-1">
-                  <h3 className="font-semibold text-text-primary">{item.name}</h3>
-                  <p className="text-sm text-text-secondary mt-1">{item.property}</p>
+        {mockRecentItems.length > 0 ? (
+          <div className="space-y-3">
+            {mockRecentItems.map((item, idx) => (
+              <button
+                key={idx}
+                onClick={() => {
+                  if (item.type === 'property') {
+                    onPropertySelect(item.id)
+                  }
+                }}
+                className="w-full p-4 bg-white border border-border-light rounded-lg hover:shadow-soft transition-all text-left flex items-center justify-between"
+              >
+                <div className="flex items-start gap-4 flex-1">
+                  <Clock size={18} className="text-text-secondary mt-1 flex-shrink-0" />
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-text-primary">{item.name}</h3>
+                    <p className="text-sm text-text-secondary mt-1">{item.property}</p>
+                  </div>
                 </div>
-              </div>
-              <div className="flex items-center gap-3">
-                <span className="text-xs text-text-secondary whitespace-nowrap">{item.time}</span>
-                <ChevronRight size={18} className="text-text-secondary" />
-              </div>
-            </button>
-          ))}
-        </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-xs text-text-secondary whitespace-nowrap">{item.time}</span>
+                  <ChevronRight size={18} className="text-text-secondary" />
+                </div>
+              </button>
+            ))}
+          </div>
+        ) : (
+          <p className="py-12 text-center text-text-secondary">No recent items</p>
+        )}
       </div>
     </div>
   )

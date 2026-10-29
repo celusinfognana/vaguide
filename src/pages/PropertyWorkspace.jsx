@@ -24,6 +24,8 @@ export default function PropertyWorkspace({
   onCategorySelect,
   activeWorkspaceTab,
   onSelectWorkspaceTab,
+  isReadOnlyOfflineCollection = false,
+  onRetryServerConnection,
 }) {
   if (!property) {
     return <div className="flex items-center justify-center h-full text-text-secondary">Select a property</div>
@@ -103,6 +105,18 @@ export default function PropertyWorkspace({
   return (
     <div className="h-full overflow-y-auto bg-white">
       <div className="max-w-7xl mx-auto px-8 py-8">
+        {isReadOnlyOfflineCollection && (
+          <div className="mb-5 flex items-center justify-between gap-4 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
+            <span>Offline copy. Connect to the server to edit and save this collection.</span>
+            <button
+              type="button"
+              onClick={onRetryServerConnection}
+              className="shrink-0 rounded-md border border-amber-300 px-3 py-1.5 font-medium hover:bg-amber-100"
+            >
+              Retry connection
+            </button>
+          </div>
+        )}
         {/* Property Header */}
         <div className="flex items-start justify-between mb-8 pb-6 border-b border-border-light">
           <div className="flex items-start gap-4">

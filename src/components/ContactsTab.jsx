@@ -19,9 +19,11 @@ export default function ContactsTab({ contacts }) {
               <h3 className="font-semibold text-text-primary">{contact.name}</h3>
               <p className="text-sm text-text-secondary">{contact.role}</p>
             </div>
-            <span className="text-xs bg-blue-50 text-accent-blue px-2 py-1 rounded">
-              Preferred: {contact.preferred === 'phone' ? 'Phone' : 'Text'}
-            </span>
+            {contact.preferred && (
+              <span className="text-xs bg-blue-50 text-accent-blue px-2 py-1 rounded">
+                Preferred: {contact.preferred === 'phone' ? 'Phone' : 'Text'}
+              </span>
+            )}
           </div>
 
           <div className="space-y-2 mb-3">
@@ -34,6 +36,13 @@ export default function ContactsTab({ contacts }) {
               <span className="text-sm text-text-primary">{contact.email}</span>
             </div>
           </div>
+
+          {contact.whenToContact && (
+            <p className="mb-3 text-sm text-text-secondary">
+              <span className="font-medium text-text-primary">When to contact: </span>
+              {contact.whenToContact}
+            </p>
+          )}
 
           <div className="flex gap-2">
             <button className="px-3 py-2 bg-accent-call text-white rounded-lg text-sm hover:bg-opacity-90 transition-all flex items-center gap-2">

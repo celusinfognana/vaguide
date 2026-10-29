@@ -1,0 +1,1269 @@
+AIR MANAGEMENT (AIR MGMT)
+PROPERTY / COLLECTION CONTENT
+Consolidated operations knowledge base
+Prepared from the supplied compiled procedures and property listing (78 listed properties).
+Source-grounding note: instructions are organized from the supplied source. Where the source contains conflicting or time-sensitive instructions, the conflict is retained and called out for client confirmation rather than silently resolved.
+
+1. MAIN PROPERTY / COLLECTION INFORMATION
+Property / Collection Name: Air Management (AIR MGMT)
+Property Description: Short-term rental property collection managed by AIR MGMT, including Steamboat Springs and other Colorado properties, as well as Florida properties.
+2. MAIN PROPERTY / COLLECTION INFORMATION
+Overview Title: AIR MGMT â€” General Operations
+Overview: Central procedures for guest communication, screening and reservations, access and lockouts, emergencies, maintenance, cleaning, check-in/check-out, payments, refunds, property information and operational reporting. General procedures apply to the main collection and its subproperties unless the source specifies a property-specific exception.
+Important Property Information
+    â€¢ All guest communication must remain on the Airbnb/message platform. Do not agree to text or email guests directly.
+    â€¢ Use saved replies (SR) where specified. Read the entire message thread before replying and verify any AI-composed response before sending.
+    â€¢ Do not use a guest-message signature; the source states that no signature is used.
+    â€¢ Non-urgent host messages should be sent only between 9 AM and 10 PM MDT, according to the source.
+    â€¢ Minimum guest age is 18. For guests under 25, highlight strict HOA/neighbour policies and request respectful behaviour.
+    â€¢ No parties/events, no over-occupancy, no property viewings, and no stays longer than 30 days.
+    â€¢ Guest screening, minimum nights, last-minute booking acceptance and property-specific restrictions must be checked against the individual listing.
+    â€¢ Source includes system usernames/passwords. Treat credentials as confidential and store/share the final document only through approved internal channels.
+Rules
+    â€¢ All communication with guests must remain within Airbnb/the booking platform; do not promise off-platform text or email communication.
+    â€¢ No parties or events are allowed. Over-occupancy is not allowed.
+    â€¢ Visitors are allowed only within maximum occupancy; escalate concerns or pushback to the host.
+    â€¢ Guests cannot view the property before booking.
+    â€¢ Long-term stays exceeding 30 days are not permitted.
+    â€¢ Filming/photoshoots may be booked at the standard nightly rate without discounts, subject to occupancy requirements.
+    â€¢ Minimum-night exceptions require host approval and should help fill a gap between reservations.
+    â€¢ Do not accept bookings on blocked calendar dates.
+    â€¢ Reservation modifications must be handled through the booking platform; source restrictions on date changes are detailed in the cancellation procedure.
+Contacts
+Contact Name: AIR MGMT / Host Operations
+Role: Host / property operations
+Phone: 970-819-6157
+Email: contact@airmgmt.co
+When to Contact: Maintenance, property issues, host coordination and urgent escalation.
+Contact Name: Zak
+Role: Secondary emergency contact
+Phone: 970-819-8325
+Email: Not provided
+When to Contact: If the first emergency number is not answered after three calls.
+Contact Name: Mathew
+Role: Third emergency contact / cleaning and property support
+Phone: 970-918-7016
+Email: Not provided
+When to Contact: If the first and secondary emergency contacts are not reached; cleaning issues/missing amenities via WhatsApp.
+Contact Name: Strong Arm Security
+Role: After-hours front-desk entry support
+Phone: 970-819-6161
+Email: Not provided
+When to Contact: Guest arrives after the front desk closes at applicable front-desk properties.
+Contact Name: Google Voice
+Role: Guest-call number
+Phone: (970) 236-6118
+Email: contact@airmgmt.co
+When to Contact: Use to call guests/contacts; if Google Voice fails, use WhatsApp.
+Property Info
+Master Property List: 78 properties supplied in AIR MGMT PROPERTY LISTING.csv. The complete nickname/address list appears in Section 4.
+Primary operational systems: Guesty, Airbnb, Google Voice, WhatsApp, Breezeway (Steamboat Springs housekeeping status), Site Audit Pro, INTO AI, and AIR MGMT team-zone refund request form.
+AIR MGMT team-zone: https://airmgmt.co/team-zone
+Site Audit Pro: https://cloud.siteauditpro.com/folders/81k5aGyYMp7zRlrNdDSb
+Pet process manual: https://docs.google.com/spreadsheets/d/15mmiL2NSlJpvarPsJfad8fd1unH0vsxQwXHSEzedLvQ/edit?pli=1#gid=840435471
+3. GENERAL PROCEDURES
+General Procedures belong to the main collection and apply when AIR MGMT or any subproperty is selected, unless a property-specific exception is stated.
+Guest Communication & Message Quality
+General Procedure: YES â€” General Procedure
+Channel: Chat
+Category: Other Requests
+Description: Keep guest communication on-platform and follow AIR MGMT's communication standards.
+Keywords: Airbnb communication, saved reply, SR, message thread, INTO AI
+Process Flow
+Step 1 â€” Keep communication on-platform [Important]: All guest communication must stay within Airbnb/the booking platform. If a guest asks for text or email, do not commit to doing so.
+Step 2 â€” Read the full thread [Important]: Read the entire message thread before replying, including host messages or approvals already posted.
+Step 3 â€” Use saved replies and AI carefully [Normal]: Use the relevant saved reply (SR) where specified. When using INTO AI, select Compose without first typing a message; only type a prompt if the AI has difficulty understanding the question.
+Step 4 â€” Verify the response [Important]: Review all AI-composed information for accuracy before sending. Keep the tone friendly and natural rather than robotic.
+Step 5 â€” Host contact timing [Important]: Send non-urgent host messages only between 9 AM and 10 PM MDT, as requested by the host. Emergencies follow the emergency procedure.
+Procedure Completion: Send the accurate response on-platform and retain the relevant conversation context.
+
+Guest Screening, Minimum Age & House Rules
+General Procedure: YES â€” General Procedure
+Channel: Chat / Call
+Category: Reservations
+Description: Apply the shared booking screening rules before confirming or advising on a reservation.
+Keywords: screening, minimum age, guest reviews, Airbnb verification, visitors, occupancy, parties
+Process Flow
+Step 1 â€” Check listing requirements [Normal]: Airbnb verifications are as available on the Airbnb website. The source states there is no specific Airbnb review requirement.
+Step 2 â€” Apply minimum-age rule [Important]: Minimum age is 18. For guests under 25, highlight the strict HOA/neighbour policies and ask them to respect the surroundings.
+Step 3 â€” Enforce house rules [Warning]: No parties/events, no over-occupancy, and no property viewings are allowed. Visitors are permitted only within the maximum occupancy limit.
+Step 4 â€” Escalate visitor concerns [Contact]: If the guest pushes back or there are concerns about visitors, reach out to the host.
+Procedure Completion: Apply the listing rules and document any host approval or escalation in the reservation thread.
+
+Minimum Nights & Accommodation Requests
+General Procedure: YES â€” General Procedure
+Channel: Chat
+Category: Reservations
+Description: Handle requests below the listing minimum-night requirement.
+Keywords: minimum nights, gap nights, short stay, accommodation request
+Process Flow
+Step 1 â€” Check minimum nights [Normal]: Minimum-night requirements are listed in Guesty and should be checked for the specific listing.
+Step 2 â€” Assess gap-fill exception [Important]: A booking below the minimum may be accepted if it fills a gap between reservations, but host approval is required.
+Step 3 â€” Record decision [Normal]: Do not treat a below-minimum request as approved until the host has approved it.
+Procedure Completion: Respond according to the listing requirement and any confirmed host approval.
+
+Last-Minute Reservations & Blocked Dates
+General Procedure: YES â€” General Procedure
+Channel: Chat
+Category: Reservations
+Description: Check listing-specific restrictions before accepting last-minute or blocked-date bookings.
+Keywords: last-minute booking, front desk, blocked dates, TL, SI.125, PX.113, PX.123
+Process Flow
+Step 1 â€” Check listing-specific requirements [Important]: Last-minute booking rules vary by listing. In general, last-minute bookings are allowed, but properties with front desks may not permit them.
+Step 2 â€” Apply known restrictions [Warning]: Do not accept last-minute bookings for TL properties. Front-desk units listed in the source include SI.125, PX.113, PX.123, TL.303B, TL.101, TL.302D and 430.AV.
+Step 3 â€” Check blocked dates [Warning]: Booking dates blocked on the calendar are not allowed.
+Procedure Completion: Proceed only if the specific listing permits the requested booking.
+
+Reservation Changes, Extensions & Cancellations
+General Procedure: YES â€” General Procedure
+Channel: Chat
+Category: Reservations
+Description: Apply the source's reservation modification and strict cancellation guidance.
+Keywords: alteration, cancellation, extension, date change, strict cancellation policy
+Process Flow
+Step 1 â€” Use the booking platform [Important]: All reservation modifications must be handled through the booking platform.
+Step 2 â€” Handle extensions [Normal]: Extending dates is encouraged if the property is available.
+Step 3 â€” Handle reductions/removals [Warning]: The source says reducing/removing dates within one week of check-in is not allowed. It also says date modifications are allowed only when more than 14 days remain before the reservation starts; at 14 days or less, no modifications can be made. If there is any question, maintain the cancellation policy.
+Step 4 â€” Apply cancellation policy [Important]: The source describes all listings as having a strict cancellation policy: full refund if cancellation is within 48 hours of booking and at least 14 days before check-in; cancellation 14 or more days before check-in but outside that 48-hour window results in 50% payout for all nights; cancellation 7â€“14 days before check-in results in 50% payout; after that, 100% payout.
+Step 5 â€” Escalate narrow exception [Contact]: If a booking is made within a week and cancelled within 30 minutes, request approval; the source says the policy is usually maintained.
+Procedure Completion: Complete any permitted modification through the booking platform and communicate the applicable policy. Confirm the overlap between the one-week and 14-day modification rules with the account owner.
+
+Long-Term Stays, Filming & Property Viewings
+General Procedure: YES â€” General Procedure
+Channel: Chat
+Category: Reservations
+Description: Respond to long-term stay, filming/photoshoot and viewing requests.
+Keywords: long-term stay, 30 days, filming, photoshoot, property viewing
+Process Flow
+Step 1 â€” Long-term stay [Warning]: Stays exceeding 30 days are not permitted; the source states there are no special arrangements beyond this duration.
+Step 2 â€” Filming/photoshoot [Normal]: Allowed if the property is booked at the standard nightly rate with no discount. Occupancy requirements still apply.
+Step 3 â€” Property viewing [Warning]: Guests are not allowed to view the property.
+Procedure Completion: Respond using the applicable rule and do not promise an exception unless the source authorizes it.
+
+Emergency Situations & Escalation
+General Procedure: YES â€” General Procedure
+Channel: Call
+Category: Emergency
+Description: Escalate incidents that require immediate property attendance or involve an uninhabitable/unsafe unit.
+Keywords: emergency, flood, water leak, no heat, broken window, unsecured lock, no water, uninhabitable
+Process Flow
+Step 1 â€” Identify urgent situations [Warning]: Immediate attendance is required for water leaks/flooding, no heat, broken windows, unsecured locks/latches, or no water (potentially frozen pipes). Also escalate severe/potentially severe damage, an uninhabitable property, a guest unable to access the property after lockout assistance, or a property the guest cannot secure.
+Step 2 â€” Call the primary number [Contact]: Call 970-819-6157 from Google Voice (970) 236-6118. Call the first direct number three times before trying other numbers; keep calling until someone answers.
+Step 3 â€” Escalate if unanswered [Contact]: Secondary: Zak at 970-819-8325. Third: Mathew at 970-918-7016. If Google Voice fails, call using WhatsApp.
+Step 4 â€” Prioritize the response [Important]: The source prioritizes property protection for the owner, then saving the booking where possible, and providing a clear, quick guest communication experience.
+Procedure Completion: Continue escalation until assistance is reached; keep the guest updated through the booking platform.
+
+Lockout / Keypad Failure
+General Procedure: YES â€” General Procedure
+Channel: Chat / Call
+Category: Access / Lockouts
+Description: Help guests access the unit when a keypad is not working.
+Keywords: lockout, keypad, lockbox, backup key, dead batteries
+Process Flow
+Step 1 â€” Locate the backup key code [Normal]: Most properties have a lockbox mounted to the doorframe. Find the lockbox code in Guesty, the Site Audit, or the property information sheet.
+Step 2 â€” Provide lockbox instructions [Important]: If the keypad is not working, provide the lockbox code so the guest can use the key.
+Step 3 â€” Protect the backup key [Important]: Ask the guest to immediately return the key to the lockbox because it is the only backup key.
+Step 4 â€” Arrange lock repair [Contact]: Inform the guest that someone will address the lock batteries as quickly as possible. Email a work order to contact@airmgmt.co. If there is no email response, call the emergency number.
+Procedure Completion: Confirm the guest can access and secure the property; escalate immediately if they still cannot enter or secure it.
+
+After-Hours Arrival at Front-Desk Properties
+General Procedure: YES â€” General Procedure
+Channel: Call
+Category: Guest Calls
+Description: Coordinate entry when a guest arrives after the front desk has closed.
+Keywords: after hours, front desk closed, Strong Arm Security, check-in packet
+Process Flow
+Step 1 â€” Call security [Contact]: Call Strong Arm Security at 970-819-6161. Be polite and introduce yourself as â€œ[Name], with AIR MGMT (Air management).â€
+Step 2 â€” Provide arrival details [Normal]: Explain that a guest arrived after the front desk closed and request assistance getting into the property. Provide the property name, guest name and unit number.
+Step 3 â€” Coordinate guest contact [Normal]: Ask permission to give the guest Strong Arm Security's direct number. If permitted, provide 970-819-6161 to the guest so they can coordinate entry directly.
+Step 4 â€” Check for check-in packet [Important]: Security may provide the guest with the lockbox code or obtain the front-desk packet. If no packet was made, ask security to let the guest into the unit for the night.
+Step 5 â€” Arrange next-day follow-up [Important]: Tell the guest to visit the front desk the next day for a key and check-in packet. Immediately email the front desk with guest name, phone, check-in date and check-out date and request that a packet be prepared.
+Procedure Completion: Confirm the guest has a safe entry plan and the front desk has been notified.
+
+Early Check-In & Late Check-Out
+General Procedure: YES â€” General Procedure
+Channel: Chat
+Category: Check-in / Check-out
+Description: Assess early check-in availability using Breezeway for Steamboat Springs and apply the saved reply elsewhere.
+Keywords: early check-in, ECI, late checkout, Breezeway, clean status
+Process Flow
+Step 1 â€” Check at the standard review time [Normal]: The source instructs the team to check Breezeway at 12 PM to determine which properties are cleaned and ready.
+Step 2 â€” Check Steamboat Springs status [Normal]: In Breezeway, open Schedule and search for the property. Status indicators: dark green = cleaned; light blue = cleaning in progress; blue = yet to clean; orange = dirty. Another source section says green means clean and ready, while blue means not yet cleaned but scheduled to be ready by 4 PM.
+Step 3 â€” If clean and ready [Normal]: If the space is available, allow early check-in and wish the guest a wonderful stay. Early check-in has no charge according to the source.
+Step 4 â€” If not ready / outside Steamboat [Important]: If not yet ready, ask the guest to reach out again at that moment so availability can be checked, using saved reply â€œEARLY CHECKIN - PRE STAYâ€. For all other locations, use â€œEarly Check-in - Not Allowed.â€ For SW.207, use â€œEarly checkin not allowedâ€ mentioning the third-party cleaning company, as it is not in Breezeway.
+Step 5 â€” Late check-out [Warning]: Late check-out is not applicable; send the Late Checkout Decline saved reply. Read the message feed first because the host may have directly approved it. Do not contact the host for approval; if no host approval appears, send the standard decline.
+Procedure Completion: Use the correct saved reply and do not confirm early access unless the applicable status supports it.
+
+Maintenance Work Orders
+General Procedure: YES â€” General Procedure
+Channel: Chat / Call
+Category: Maintenance
+Description: Report maintenance issues to AIR MGMT and provide access/availability details.
+Keywords: maintenance, work order, permission to enter, repair, contact@airmgmt.co
+Process Flow
+Step 1 â€” Gather details [Normal]: Ask when the guest will be out and when the team may enter to address the issue.
+Step 2 â€” Email the work order [Contact]: Email contact@airmgmt.co with: Type of request (Urgent or Non-Urgent); Property Name; Issue Reported; Permission to enter?; Other details (including when the guest will be out).
+Step 3 â€” Urgent or no response [Warning]: For urgent issues follow the Emergency Situations & Escalation procedure. For lock battery issues, if the email is not answered, call the emergency number.
+Procedure Completion: Ensure the issue and entry permission are documented and that urgent concerns are escalated.
+
+Cleaning Issue / Missing Amenities / Unit Not Cleaned
+General Procedure: YES â€” General Procedure
+Channel: Chat / Call
+Category: Cleaning
+Description: Handle a unit that appears not to have been cleaned and report missing amenities.
+Keywords: cleaning issue, missing amenities, dirty unit, housekeeper, discount
+Process Flow
+Step 1 â€” Request evidence [Normal]: When a guest reports that the unit has clearly not been cleaned at all, ask the guest to provide photos.
+Step 2 â€” Contact housekeeping [Contact]: Text the housekeeper and ask whether they can go immediately to clean the unit so the booking can be saved.
+Step 3 â€” Confirm timing [Normal]: If the housekeeper can attend, ask what time they can arrive and how long cleaning is expected to take.
+Step 4 â€” Update the guest [Important]: Tell the guest the arrival time and expected duration. The source says to suggest the guest go to dinner and let them know they will receive a discount for the inconvenience.
+Step 5 â€” Report cleaning/missing amenities [Contact]: Inform Mathew through WhatsApp about cleaning issues or missing amenities.
+Procedure Completion: Document photos, attendance timing and follow-up. Note: the source separately states that discounts are not provided; confirm whether the cleaning-issue discount instruction remains approved.
+
+Guest Cannot Find the Property / Site Audit Pro
+General Procedure: YES â€” General Procedure
+Channel: Chat / Call
+Category: Check-in / Check-out
+Description: Use Site Audit Pro photos and guest location details to help locate the property or answer unit-specific questions.
+Keywords: directions, cannot find property, Site Audit Pro, entrance photos, location
+Process Flow
+Step 1 â€” Open the property audit [Normal]: Use Site Audit Pro to locate the property and review internal photos/descriptions. The source says audits are divided into Colorado and Florida regions.
+Step 2 â€” Share relevant visuals [Normal]: Send the guest relevant screenshots/photos showing complex entrances or front-door details.
+Step 3 â€” Clarify current location [Normal]: Ask what the guest can currently see around them, then use the guest's location and the community in Google Maps to assist.
+Step 4 â€” Protect the audit [Warning]: Select the property and click â€œshare reportâ€ to view photos with descriptions. NEVER mark the audit â€œas complete,â€ because the source says this deletes the audit.
+Procedure Completion: Continue guiding the guest until they can identify the correct entrance; use emergency escalation if they remain unable to access the property.
+
+Payments, Refunds & Resolutions
+General Procedure: YES â€” General Procedure
+Channel: Chat
+Category: Payments / Refunds
+Description: Route payment and resolution requests through the AIR MGMT refund request form.
+Keywords: refund, resolution, payout, payment request, refund request form
+Process Flow
+Step 1 â€” Submit request [Important]: For guest payment and resolution requests, submit a refund request form at https://airmgmt.co/team-zone.
+Step 2 â€” Wait for approval [Warning]: Once approved, proceed to issue the payout for the specific scenario.
+Step 3 â€” Apply refund policy [Important]: Refunds are not issued outside the policy set for each listing. If a booking was made within a week and cancelled within 30 minutes, request approval; the source says the policy is usually maintained.
+Procedure Completion: Do not issue a payout before approval and follow the listing's cancellation/refund policy.
+
+Cleaning Fee Discount & General Discounts
+General Procedure: YES â€” General Procedure
+Channel: Chat
+Category: Payments / Refunds
+Description: Respond to discount requests using the source's no-discount policy and saved reply.
+Keywords: cleaning fee, discount, military discount, medical responder discount, offer
+Process Flow
+Step 1 â€” Apply no-discount policy [Warning]: The source update dated 19/11/2024 says no type of discount is provided, including military, medical responders or other specific groups.
+Step 2 â€” Cleaning fee request [Normal]: Use the saved reply: â€œUnfortunately, we are unable to lower the cleaning fee, as the housekeeping vendor charges a flat rate per turnover regardless of the length of stay. We hope you can understand that they perform a standard turnover with laundry service and spend the same time between each guest preparing the space.â€
+Procedure Completion: Send the appropriate saved reply. Confirm the cleaning-issue discount instruction in the cleaning procedure because it conflicts with the general no-discount rule.
+
+Pets & Service Animals
+General Procedure: YES â€” General Procedure
+Channel: Chat
+Category: Pets / Visitors
+Description: Apply property-specific pet limits and the shared restrictions.
+Keywords: pets, cats, emotional support animal, service animal, 636.FTL, 578.ST, SA.16
+Process Flow
+Step 1 â€” Check property-specific limit [Important]: For 636.FTL and 578.ST, maximum two pets are allowed. For SA.16, maximum one pet is allowed. Check the process manual for any further listing-specific detail.
+Step 2 â€” Apply general pet rules [Warning]: No cats are allowed. Emotional support animals are considered pets. No pet charges are applicable according to the source.
+Step 3 â€” Service animals [Important]: Service animals are allowed without documentation. Ensure they are house-trained and not left unattended in the property.
+Procedure Completion: Confirm the applicable property limit and communicate the policy without adding unsupported fees or requirements.
+
+Visitors, Occupancy, Parties & Events
+General Procedure: YES â€” General Procedure
+Channel: Chat
+Category: Occupancy / Events
+Description: Apply occupancy limits and restrictions for visitors and events.
+Keywords: visitors, occupancy, party, event, gathering, over-occupancy
+Process Flow
+Step 1 â€” No parties or events [Warning]: Parties and events are not allowed.
+Step 2 â€” Enforce occupancy [Warning]: Over-occupancy is not allowed. Visitors are permitted only within the maximum occupancy limit.
+Step 3 â€” Escalate concerns [Contact]: If there are concerns or pushback about visitors, contact the host.
+Procedure Completion: Confirm the guest understands the occupancy/event rules and record any host guidance.
+
+Guest Recommendations & Listing Information
+General Procedure: YES â€” General Procedure
+Channel: Chat
+Category: Other Requests
+Description: Direct guests to the listing/check-in instructions for recommendations and property information.
+Keywords: restaurants, coffee shops, beaches, recommendations, property information
+Process Flow
+Step 1 â€” Use supplied recommendations [Normal]: Recommendations for restaurants, coffee shops, places to visit and nearby beaches are sent with check-in instructions.
+Step 2 â€” Refer to listing [Normal]: Refer to the listing page for additional information relevant to the property.
+Procedure Completion: Share only relevant source-backed information and the appropriate listing/check-in instructions.
+
+Taxes, Invoices & Payment Options
+General Procedure: YES â€” General Procedure
+Channel: Chat
+Category: Payments / Refunds
+Description: Respond to tax, invoice and alternative payment requests using the supplied policy.
+Keywords: taxes, invoice, payment options, installment, mark-up
+Process Flow
+Step 1 â€” Tax questions [Contact]: Reach out to the host for tax details.
+Step 2 â€” Invoices and mark-ups [Warning]: The source states that invoices and mark-ups are not provided at this time.
+Step 3 â€” Alternative payments [Warning]: There are no alternative payment or installment options, except transactions handled through Airbnb's own platform.
+Procedure Completion: Do not promise an invoice, mark-up, installment plan or alternative payment method.
+
+Third-Party Bookings & Guest Contact Details
+General Procedure: YES â€” General Procedure
+Channel: Chat
+Category: Reservations
+Description: Ensure additional guests receive booking/check-in communications through the reservation.
+Keywords: third-party booking, additional guest, contact details, check-in instructions
+Process Flow
+Step 1 â€” Ask guest to update reservation [Normal]: If a third-party booking guest requests check-in instructions or other details, ask them to add the relevant contact information to the reservation so the additional guest receives messages.
+Step 2 â€” Do not collect extra email addresses [Important]: The host specifically instructed the team not to request email addresses of other guests. Encourage the booking contact to add the guest to the message feed or forward the information to them.
+Procedure Completion: Keep communications on the booking platform and avoid requesting additional guest email addresses.
+
+Alternative Listings & Unavailable Dates
+General Procedure: YES â€” General Procedure
+Channel: Chat
+Category: Reservations
+Description: Offer suitable AIR MGMT alternatives in the same region when the requested dates/listing are unavailable.
+Keywords: alternative listing, unavailable dates, similar property, same region
+Process Flow
+Step 1 â€” Find suitable alternative [Normal]: Offer another AIR MGMT listing in the same region that meets the guest's requirements.
+Procedure Completion: Share a relevant alternative and do not promise availability until checked.
+
+Parking Instructions
+General Procedure: YES â€” General Procedure
+Channel: Chat
+Category: During Stay
+Description: Use the listing property information sheet for parking details and registration requirements.
+Keywords: parking, parking registration, YV.204
+Process Flow
+Step 1 â€” Check property information [Normal]: Parking instructions are provided in the property information sheet; some listings require registration.
+Step 2 â€” YV.204 exception [Important]: For YV.204, send the saved reply labeled â€œParking,â€ per the source update dated November 1, 2024.
+Procedure Completion: Provide the property-specific parking instructions and registration steps where applicable.
+
+Lost / Left Items
+General Procedure: YES â€” General Procedure
+Channel: Chat / Call
+Category: Post-Stay
+Description: Coordinate retrieval of lost items using the source's host/housekeeping process.
+Keywords: lost item, left behind, lost and found, shipping, tracking
+Process Flow
+Step 1 â€” Contact host [Contact]: Reach out to the host when a guest reports lost items.
+Step 2 â€” Steamboat region [Normal]: For items left after check-out in the Steamboat region, submit the housekeeping lost-and-found form at https://www.aircln.co/lost-and-found.
+Step 3 â€” Explain follow-up [Normal]: After the form is submitted, housekeeping will contact the guest to coordinate shipping costs and provide tracking information.
+Procedure Completion: Record the report and direct the guest to the applicable retrieval process.
+
+Package Delivery & Luggage Storage
+General Procedure: YES â€” General Procedure
+Channel: Chat
+Category: During Stay
+Description: Explain package-delivery limitations and property-specific luggage storage availability.
+Keywords: package delivery, mail, FedEx, UPS, luggage, baggage drop
+Process Flow
+Step 1 â€” Package delivery [Warning]: Guests are not allowed to have packages delivered to the listing because of mountain mail-system limitations. Recommend shipping to the nearest FedEx/UPS facility for collection.
+Step 2 â€” Luggage storage [Normal]: The source says front desks at D.302, PX.123, PX.113, SI.125 and SF.308 allow luggage storage. All other units do not have luggage storage.
+Step 3 â€” Use decline response where applicable [Normal]: Suggested response: â€œUnfortunately, we do not have a space to store your luggage at until then. We have another guest arriving that day and that time is needed for the housekeeper to prepare the space for them.â€
+Procedure Completion: Check the specific property before confirming luggage storage.
+
+Rental Agreement & Required Forms
+General Procedure: YES â€” General Procedure
+Channel: Chat
+Category: Reservations
+Description: Apply rental-agreement requirements and explain the current check-in form status.
+Keywords: rental agreement, check-in form, waiver, Adobe Sign, direct booking
+Process Flow
+Step 1 â€” Rental agreement [Important]: Guests are required to sign a rental agreement.
+Step 2 â€” Check-in form [Normal]: The source states there is currently no specific check-in form.
+Step 3 â€” Casa Del Canal golf-cart waiver [Important]: For Casa Del Canal golf-cart use, a waiver is provided and signed through Adobe Sign; the source says this could transition to Guesty agreements and notes the waiver is in New Property Management.
+Step 4 â€” Direct booking [Normal]: For the direct-booking site, an agreement will be available for signing once the website is live, according to the source.
+Procedure Completion: Ensure the applicable agreement/waiver requirement is followed without promising an unavailable form.
+
+Guest Call Handling & Address Complaints
+General Procedure: YES â€” General Procedure
+Channel: Call
+Category: Guest Calls
+Description: Use the standard call greeting, gather reservation details, and route complaints to the operations contact.
+Keywords: call script, guest call, complaint, reservation name, property name
+Process Flow
+Step 1 â€” Opening greeting [Normal]: Say: â€œAIR MGMT, this is [Name], how can I help?â€
+Step 2 â€” Gather details [Normal]: Ask: â€œCan I please get the name on the reservation?â€ and â€œWhich property are you staying at?â€
+Step 3 â€” Address complaint [Contact]: For address complaints, text 970-819-6157. Mathew or Zak will assist.
+Procedure Completion: Document the issue and route it to the appropriate AIR MGMT contact.
+
+Casa Del Canal Golf Cart Rental
+General Procedure: YES â€” General Procedure
+Channel: Chat
+Category: Other Requests
+Description: Coordinate a golf-cart rental request for Casa Del Canal.
+Keywords: Casa Del Canal, golf cart, $150/day, waiver, payment link
+Process Flow
+Step 1 â€” Collect rental details [Normal]: The six-person golf cart costs $150/day. Ask for the best email address for the waiver/payment link and the number of rental days.
+Step 2 â€” Email AIR MGMT [Contact]: Send contact@airmgmt.co the guest name, guest email, reservation dates and number of golf-cart rental days.
+Step 3 â€” Send saved reply [Normal]: After sending the details to AIR MGMT, send the Guesty saved reply â€œGolf-Cart Pre-Booking Steps.â€ AIR MGMT will send the waiver and payment link to the provided email.
+Step 4 â€” Rental day [Normal]: On the rental day, send the saved reply â€œGolf Cart: Accessing the Rental,â€ which contains access information.
+Procedure Completion: Ensure the rental details are forwarded and the correct saved replies are sent.
+
+Owner-Rented Dock
+General Procedure: YES â€” General Procedure
+Channel: Chat
+Category: Other Requests
+Description: Provide the source-listed dock rental information for property 636.FTL.
+Keywords: 636.FTL, dock rental, boat, charter pickup, $50/night
+Process Flow
+Step 1 â€” Share dock details [Normal]: At 636.FTL, the owner rents dock space for $50 per night for boats up to 35 feet. The dock can also be used for charter-boat pickup.
+Procedure Completion: Share the details as stated; confirm availability with the owner if required.
+
+Daily Front Desk Check-In Reports
+General Procedure: YES â€” General Procedure
+Channel: Call
+Category: Management
+Description: Complete Monday report checks and forwarding for front-desk properties.
+Keywords: Monday task, front desk report, Ski Inn, The Phoenix, The Lodge, Guesty
+Process Flow
+Step 1 â€” Check report inbox [Important]: Guesty Front Desk Check-In Reports are generated every Monday at 9 AM (the source also notes Monday 8:30 PM IST) and shared with bookings@airmgmt.co. Check that the reports were received.
+Step 2 â€” Ski Inn [Normal]: Verify the report for SI.125 and file it under Front Desk Weekly Emails â†’ Ski Inn Front Desk (Steamboat).
+Step 3 â€” The Phoenix [Normal]: Verify reports for PX.113 and PX.123. Forward to thephoenix@vacasa.com; CC Contact AIR MGMT, jeramiah.schultze@vacasa.com and desiree.snyder@vacasa.com. File under Front Desk Weekly Emails â†’ The Phoenix Front Desk (Steamboat).
+Step 4 â€” The Lodge [Normal]: Verify reports for D.302 and *D.302 (two listings for the same property). Forward to russell.whitten@vacasa.com, gwen.purcell@vacasa.com, kailee.duryea@vacasa.com, j.rodriguez@vacasa.com, rebecca.duryea@vacasa.com and mayo.thompson@vacasa.com; BCC bookings@airmgmt.co. File under Front Desk Weekly Emails â†’ The Lodge Front Desk (Steamboat).
+Procedure Completion: Verify each specified report, forward to the correct recipients and file it in the stated folder.
+
+Daily Check-In / Check-Out Guest Details
+General Procedure: YES â€” General Procedure
+Channel: Call
+Category: Management
+Description: Send guest details for the four specified Steamboat front-desk listings on check-in and check-out.
+Keywords: daily task, check-in, check-out, front desk, guest details
+Process Flow
+Step 1 â€” Identify applicable reservations [Important]: Complete this task only for PX.113 â€” Slopeside Sanctuary; PX.123 â€” Steamboat Slopeside Lodge; D.302 â€” Rustic Ridgetop Retreat; and SI.125 â€” Steamboat Gondola Getaway.
+Step 2 â€” Include required information [Normal]: Include owner-made reservations too, and share available guest name, phone number, check-in date and check-out date.
+Step 3 â€” Send to recipients [Contact]: Send to rebecca.duryea@vacasa.com, j.rodriguez@vacasa.com, gwen.purcell@vacasa.com, mayo.thompson@vacasa.com, russell.whitten@vacasa.com, anne.noble@vacasa.com and kailee.duryea@vacasa.com.
+Step 4 â€” Use designated email [Important]: Send the email from airmgmt@infognanasolutions.com.
+Procedure Completion: Confirm that the guest details were sent for each applicable check-in/check-out.
+
+Gas Fireplace Usage
+General Procedure: YES â€” General Procedure
+Channel: Chat
+Category: During Stay
+Description: Communicate the source-listed fireplace-use date restriction.
+Keywords: gas fireplace, fireplace, December 1
+Process Flow
+Step 1 â€” Check date restriction [Important]: The source states that the fireplace is available for guest use only from December 1, 2024. The source does not specify a seasonal end date; verify current applicability with AIR MGMT if needed.
+Procedure Completion: Do not promise fireplace use outside the source's stated restriction without confirmation.
+
+Baby Equipment & Amenities
+General Procedure: YES â€” General Procedure
+Channel: Chat
+Category: During Stay
+Description: Respond to requests for baby equipment and additional amenities.
+Keywords: baby equipment, baby amenities, crib, high chair
+Process Flow
+Step 1 â€” Baby equipment [Normal]: No baby amenities are provided, according to the source.
+Procedure Completion: Tell the guest that baby amenities are not provided.
+
+Host Contact & Routine Work Coordination
+General Procedure: YES â€” General Procedure
+Channel: Call
+Category: Host / Owner
+Description: Contact AIR MGMT through the approved channels and share complete work-order details.
+Keywords: host contact, WhatsApp, contact@airmgmt.co, urgent, non-urgent
+Process Flow
+Step 1 â€” Routine contact [Contact]: Reach out to the host via WhatsApp â€” Air Mgmt, or email contact@airmgmt.co.
+Step 2 â€” Urgent contact [Warning]: For utmost emergencies call 970-819-6157. For immediate-attendance situations, follow the Emergency Situations & Escalation procedure.
+Procedure Completion: Use the appropriate channel and include the property, issue, urgency and access details.
+
+Front Desk After-Hours / Guest Entry â€” Call Handling
+General Procedure: YES â€” General Procedure
+Channel: Call
+Category: Lockouts
+Description: Use Strong Arm Security for after-hours entry support at applicable front-desk properties.
+Keywords: front desk, after hours, security, entry, packet
+Process Flow
+Step 1 â€” Call Strong Arm [Contact]: Call 970-819-6161 and politely identify yourself as AIR MGMT.
+Step 2 â€” Coordinate unit access [Normal]: Provide property name, guest name and unit number, and coordinate directly with security as outlined in the After-Hours Arrival procedure.
+Procedure Completion: Ensure the guest receives the entry plan and follow-up instructions.
+
+4. SUBPROPERTY / SUBCOLLECTIONS
+The following master property list is reproduced from the supplied CSV. The source does not provide a full description, individual contact, or separate overview for every listing; those fields are not inferred.
+Subproperty 01: 101.DN
+Subproperty / Collection Name: 101.DN
+Description: AIR MGMT listing at 445 Gulf Shore Drive 101, Destin, Florida 32541, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 445 Gulf Shore Drive 101, Destin, Florida 32541, United States of America
+Subproperty 02: 201.CB
+Subproperty / Collection Name: 201.CB
+Description: AIR MGMT listing at 701 Gothic Rd #201, Crested Butte, CO 81225, USA
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 701 Gothic Rd #201, Crested Butte, CO 81225, USA
+Subproperty 03: 202. WP
+Subproperty / Collection Name: 202. WP
+Description: AIR MGMT listing at 377 Lions Gate Drive 202, Winter Park, Colorado 80482, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 377 Lions Gate Drive 202, Winter Park, Colorado 80482, United States of America
+Subproperty 04: 204.CB
+Subproperty / Collection Name: 204.CB
+Description: AIR MGMT listing at 18 Snowmass Road 204, Crested Butte, Colorado 81225, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 18 Snowmass Road 204, Crested Butte, Colorado 81225, United States of America
+Subproperty 05: 232.LD
+Subproperty / Collection Name: 232.LD
+Description: AIR MGMT listing at 220 La Bonte Street #232, Dillon, Colorado 80435, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 220 La Bonte Street #232, Dillon, Colorado 80435, United States of America
+Subproperty 06: 302.BR
+Subproperty / Collection Name: 302.BR
+Description: AIR MGMT listing at 301 North French Street 302, Breckenridge, Colorado 80424, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 301 North French Street 302, Breckenridge, Colorado 80424, United States of America
+Subproperty 07: 3037.Chinook
+Subproperty / Collection Name: 3037.Chinook
+Description: AIR MGMT listing at 3037 Chinook Lane, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 3037 Chinook Lane, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 08: 430. AV
+Subproperty / Collection Name: 430. AV
+Description: AIR MGMT listing at 126 Riverfront Ln # 430, Avon, CO 81620, USA
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 126 Riverfront Ln # 430, Avon, CO 81620, USA
+Subproperty 09: 437.BR
+Subproperty / Collection Name: 437.BR
+Description: AIR MGMT listing at 437 Broken Lance Drive, Breckenridge, Colorado 80424, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 437 Broken Lance Drive, Breckenridge, Colorado 80424, United States of America
+Subproperty 10: 439.BR
+Subproperty / Collection Name: 439.BR
+Description: AIR MGMT listing at 439 Broken Lance Drive , Breckenridge, Colorado 80424, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 439 Broken Lance Drive , Breckenridge, Colorado 80424, United States of America
+Subproperty 11: 578.ST
+Subproperty / Collection Name: 578.ST
+Description: AIR MGMT listing at 578 Bighorn Circle, Silverthorne, Colorado 80498, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 578 Bighorn Circle, Silverthorne, Colorado 80498, United States of America
+Subproperty 12: A12 ST
+Subproperty / Collection Name: A12 ST
+Description: AIR MGMT listing at 740 Blue River Parkway A12, Silverthorne, Colorado 80498, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 740 Blue River Parkway A12, Silverthorne, Colorado 80498, United States of America
+Subproperty 13: EL. 301
+Subproperty / Collection Name: EL. 301
+Description: AIR MGMT listing at 1463 Flattop Circle 301, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1463 Flattop Circle 301, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 14: FF. 11
+Subproperty / Collection Name: FF. 11
+Description: AIR MGMT listing at 465 Tamarack Drive B-011, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 465 Tamarack Drive B-011, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 15: FF.16
+Subproperty / Collection Name: FF.16
+Description: AIR MGMT listing at 465 Tamarack Drive Unit 16, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 465 Tamarack Drive Unit 16, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 16: FF.4
+Subproperty / Collection Name: FF.4
+Description: AIR MGMT listing at 465 Tamarack Drive #4B, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 465 Tamarack Drive #4B, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 17: HB. B1
+Subproperty / Collection Name: HB. B1
+Description: AIR MGMT listing at 2615 Apres Ski Way b1, Steamboat Springs, CO 80487, USA
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 2615 Apres Ski Way b1, Steamboat Springs, CO 80487, USA
+Subproperty 18: HB.A4
+Subproperty / Collection Name: HB.A4
+Description: AIR MGMT listing at 2583 Apres Ski Way A4, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 2583 Apres Ski Way A4, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 19: HB.C6
+Subproperty / Collection Name: HB.C6
+Description: AIR MGMT listing at 2663 Apres Ski Way Unit C6, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 2663 Apres Ski Way Unit C6, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 20: HP. 202A
+Subproperty / Collection Name: HP. 202A
+Description: AIR MGMT listing at 700 Yampa Street A202, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 700 Yampa Street A202, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 21: HP.204A
+Subproperty / Collection Name: HP.204A
+Description: AIR MGMT listing at 700 Yampa Street 204, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 700 Yampa Street 204, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 22: HP.306B
+Subproperty / Collection Name: HP.306B
+Description: AIR MGMT listing at 703 Lincoln Avenue B306, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 703 Lincoln Avenue B306, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 23: MC. 1471
+Subproperty / Collection Name: MC. 1471
+Description: AIR MGMT listing at 1471 Morgan Court, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1471 Morgan Court, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 24: NS.112
+Subproperty / Collection Name: NS.112
+Description: AIR MGMT listing at 2955 Columbine Drive 112, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 2955 Columbine Drive 112, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 25: NS.12
+Subproperty / Collection Name: NS.12
+Description: AIR MGMT listing at 2955 Columbine Drive 12, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 2955 Columbine Drive 12, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 26: PM. A11
+Subproperty / Collection Name: PM. A11
+Description: AIR MGMT listing at 3295 Apres Ski Way A-11, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 3295 Apres Ski Way A-11, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 27: PM. A7
+Subproperty / Collection Name: PM. A7
+Description: AIR MGMT listing at 3295 Apres Ski Way A7, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 3295 Apres Ski Way A7, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 28: PM. A8
+Subproperty / Collection Name: PM. A8
+Description: AIR MGMT listing at 3295 Apres Ski Way #A8, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 3295 Apres Ski Way #A8, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 29: PM. A9
+Subproperty / Collection Name: PM. A9
+Description: AIR MGMT listing at 3295 Apres Ski Way A9, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 3295 Apres Ski Way A9, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 30: PM. C1
+Subproperty / Collection Name: PM. C1
+Description: AIR MGMT listing at 3295 Apres Ski Way C1, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 3295 Apres Ski Way C1, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 31: PM.A2
+Subproperty / Collection Name: PM.A2
+Description: AIR MGMT listing at 3295 Apres Ski Way A2, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 3295 Apres Ski Way A2, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 32: PM.B3
+Subproperty / Collection Name: PM.B3
+Description: AIR MGMT listing at 3295 Apres Ski Way #B3, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 3295 Apres Ski Way #B3, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 33: PM.B7
+Subproperty / Collection Name: PM.B7
+Description: AIR MGMT listing at 3295 Apres Ski Way B7, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 3295 Apres Ski Way B7, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 34: PX.113
+Subproperty / Collection Name: PX.113
+Description: AIR MGMT listing at 2345 Apres Ski Way 113, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 2345 Apres Ski Way 113, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 35: PX.123
+Subproperty / Collection Name: PX.123
+Description: AIR MGMT listing at 2335 Apres Ski Way 123, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 2335 Apres Ski Way 123, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 36: RC.201
+Subproperty / Collection Name: RC.201
+Description: AIR MGMT listing at 1805 River Queen Lane 201, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1805 River Queen Lane 201, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 37: RR. 2136
+Subproperty / Collection Name: RR. 2136
+Description: AIR MGMT listing at 1945 Cornice Road 2136, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1945 Cornice Road 2136, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 38: RR. 2234
+Subproperty / Collection Name: RR. 2234
+Description: AIR MGMT listing at 1945 Cornice Road 2234, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1945 Cornice Road 2234, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 39: RR. 2304
+Subproperty / Collection Name: RR. 2304
+Description: AIR MGMT listing at 1945 Cornice Road 2304, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1945 Cornice Road 2304, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 40: RR. 2407
+Subproperty / Collection Name: RR. 2407
+Description: AIR MGMT listing at 1945 Cornice Rd #2407, Steamboat Springs, CO 80487, USA
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1945 Cornice Rd #2407, Steamboat Springs, CO 80487, USA
+Subproperty 41: RR. 2422
+Subproperty / Collection Name: RR. 2422
+Description: AIR MGMT listing at 1945 Cornice Rd d2422, Steamboat Springs, CO 80487, USA
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1945 Cornice Rd d2422, Steamboat Springs, CO 80487, USA
+Subproperty 42: RR. 2435
+Subproperty / Collection Name: RR. 2435
+Description: AIR MGMT listing at 1945 Cornice Road 2435, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1945 Cornice Road 2435, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 43: RR.2124
+Subproperty / Collection Name: RR.2124
+Description: AIR MGMT listing at 1945 Cornice Road 2124, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1945 Cornice Road 2124, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 44: RR.2222
+Subproperty / Collection Name: RR.2222
+Description: AIR MGMT listing at 1945 Cornice Road #2222, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1945 Cornice Road #2222, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 45: RR.2224
+Subproperty / Collection Name: RR.2224
+Description: AIR MGMT listing at 1945 Cornice Road 2224, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1945 Cornice Road 2224, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 46: RR.2307
+Subproperty / Collection Name: RR.2307
+Description: AIR MGMT listing at 1945 Cornice Road 2307, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1945 Cornice Road 2307, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 47: RR.2311
+Subproperty / Collection Name: RR.2311
+Description: AIR MGMT listing at 1945 Cornice Road 2311, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1945 Cornice Road 2311, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 48: RR.2324
+Subproperty / Collection Name: RR.2324
+Description: AIR MGMT listing at 1945 Cornice Road 2324, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1945 Cornice Road 2324, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 49: RR.2332
+Subproperty / Collection Name: RR.2332
+Description: AIR MGMT listing at 1945 Cornice Road 2332, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1945 Cornice Road 2332, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 50: RR.2341
+Subproperty / Collection Name: RR.2341
+Description: AIR MGMT listing at 1945 Cornice Road 2341, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1945 Cornice Road 2341, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 51: SA.16
+Subproperty / Collection Name: SA.16
+Description: AIR MGMT listing at 3170 Columbine Drive 16, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 3170 Columbine Drive 16, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 52: SF.308
+Subproperty / Collection Name: SF.308
+Description: AIR MGMT listing at 2200 Apres Ski Way #308, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 2200 Apres Ski Way #308, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 53: SI.125
+Subproperty / Collection Name: SI.125
+Description: AIR MGMT listing at 2350 Ski Trail Lane 125, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 2350 Ski Trail Lane 125, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 54: SL. 203
+Subproperty / Collection Name: SL. 203
+Description: AIR MGMT listing at 2883 Burgess Creek Road 203, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 2883 Burgess Creek Road 203, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 55: SM.230
+Subproperty / Collection Name: SM.230
+Description: AIR MGMT listing at 2215 Storm Meadows Drive Unit 230, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 2215 Storm Meadows Drive Unit 230, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 56: SM.324
+Subproperty / Collection Name: SM.324
+Description: AIR MGMT listing at 2235 Storm Meadows Drive 324, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 2235 Storm Meadows Drive 324, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 57: SR. 202B
+Subproperty / Collection Name: SR. 202B
+Description: AIR MGMT listing at 1565 Shadow Run Frontage B202, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1565 Shadow Run Frontage B202, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 58: SR. 302A
+Subproperty / Collection Name: SR. 302A
+Description: AIR MGMT listing at 1525 Shadow Run Frontage a302, Steamboat Springs, CO 80487, USA
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1525 Shadow Run Frontage a302, Steamboat Springs, CO 80487, USA
+Subproperty 59: SR.203B
+Subproperty / Collection Name: SR.203B
+Description: AIR MGMT listing at 1565 Shadow Run Frontage B203, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1565 Shadow Run Frontage B203, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 60: SR.209D
+Subproperty / Collection Name: SR.209D
+Description: AIR MGMT listing at 1555 Shadow Run Court 209D, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1555 Shadow Run Court 209D, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 61: SRM.806
+Subproperty / Collection Name: SRM.806
+Description: AIR MGMT listing at 3345 Columbine Drive 806, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 3345 Columbine Drive 806, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 62: STC.1
+Subproperty / Collection Name: STC.1
+Description: AIR MGMT listing at 2320 Ski Trail Lane #1, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 2320 Ski Trail Lane #1, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 63: STS.201
+Subproperty / Collection Name: STS.201
+Description: AIR MGMT listing at 1920 Ski Time Square Drive #201, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1920 Ski Time Square Drive #201, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 64: STS.515
+Subproperty / Collection Name: STS.515
+Description: AIR MGMT listing at 1920 Ski Time Square Drive 515, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1920 Ski Time Square Drive 515, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 65: SW.207
+Subproperty / Collection Name: SW.207
+Description: AIR MGMT listing at 1800 Burgess Creek Road 207, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 1800 Burgess Creek Road 207, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 66: TL. 101B
+Subproperty / Collection Name: TL. 101B
+Description: AIR MGMT listing at 2700 Village Dr b101, Steamboat Springs, CO 80487, USA
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 2700 Village Dr b101, Steamboat Springs, CO 80487, USA
+Subproperty 67: TL. 303B
+Subproperty / Collection Name: TL. 303B
+Description: AIR MGMT listing at 2700 Village Dr b303, Steamboat Springs, CO 80487, USA
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 2700 Village Dr b303, Steamboat Springs, CO 80487, USA
+Subproperty 68: TL.302D
+Subproperty / Collection Name: TL.302D
+Description: AIR MGMT listing at 2700 Village Drive D302, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 2700 Village Drive D302, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 69: TPC. 205E
+Subproperty / Collection Name: TPC. 205E
+Description: AIR MGMT listing at 460 Ore House Plaza 205, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 460 Ore House Plaza 205, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 70: TPC.202A
+Subproperty / Collection Name: TPC.202A
+Description: AIR MGMT listing at 540 Ore House Plaza 202, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 540 Ore House Plaza 202, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 71: TPC.303F
+Subproperty / Collection Name: TPC.303F
+Description: AIR MGMT listing at 380 Ore House Plaza 303, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 380 Ore House Plaza 303, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 72: TW. 3422
+Subproperty / Collection Name: TW. 3422
+Description: AIR MGMT listing at 2140 Mount Werner Circle 3422, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 2140 Mount Werner Circle 3422, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 73: TW.3232
+Subproperty / Collection Name: TW.3232
+Description: AIR MGMT listing at 2160 Mount Werner Circle, 80487 Steamboat Springs, United States
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 2160 Mount Werner Circle, 80487 Steamboat Springs, United States
+Subproperty 74: TW.3305
+Subproperty / Collection Name: TW.3305
+Description: AIR MGMT listing at 2130 Mt Werner Cir #3305, Steamboat Springs, CO 80487, USA
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 2130 Mt Werner Cir #3305, Steamboat Springs, CO 80487, USA
+Subproperty 75: TW.3322
+Subproperty / Collection Name: TW.3322
+Description: AIR MGMT listing at 2130 Mount Werner Circle #3322, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 2130 Mount Werner Circle #3322, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 76: TW.3424
+Subproperty / Collection Name: TW.3424
+Description: AIR MGMT listing at 2140 Mount Werner Circle 3424, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 2140 Mount Werner Circle 3424, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 77: UO. 2862
+Subproperty / Collection Name: UO. 2862
+Description: AIR MGMT listing at 2862 Owl Hoot Trail, Steamboat Springs, Colorado 80487, United States of America
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 2862 Owl Hoot Trail, Steamboat Springs, Colorado 80487, United States of America
+Subproperty 78: YV. 204
+Subproperty / Collection Name: YV. 204
+Description: AIR MGMT listing at 2626 Longthong Rd #204, Steamboat Springs, CO 80487, USA
+Overview Title: Listing-specific information
+Overview: Follow the AIR MGMT General Procedures and the listing-specific instructions below, if any.
+Important Information: See the property-specific notes and exceptions in Section 5 and Additional Information.
+Rules: Apply the AIR MGMT general rules and any listing-specific exception documented in the source.
+Contacts: Use AIR MGMT contacts in Section 2 unless the source specifies another contact for this listing.
+Property Information: 2626 Longthong Rd #204, Steamboat Springs, CO 80487, USA
+5. SUBPROPERTY / COLLECTION PROCEDURES
+Only source-supported property-specific procedures are listed here. Other procedures remain under General Procedures.
+Casa Del Canal â€” Golf Cart Rental
+General Procedure: NO â€” Subproperty-Specific Procedure / Exception
+Channel: Chat / Call as applicable
+Category: See corresponding General Procedure category
+Description: The six-person golf cart is offered for $150/day. Collect the guest email and number of rental days, email the details to contact@airmgmt.co, send the â€œGolf-Cart Pre-Booking Stepsâ€ saved reply, then send â€œGolf Cart: Accessing the Rentalâ€ on the rental day.
+636.FTL â€” Owner-Rented Dock
+General Procedure: NO â€” Subproperty-Specific Procedure / Exception
+Channel: Chat / Call as applicable
+Category: See corresponding General Procedure category
+Description: Dock space is rented by the owner for $50/night for boats up to 35 feet. The dock can also be used for charter-boat pickup.
+636.FTL; 578.ST â€” Pet Limit
+General Procedure: NO â€” Subproperty-Specific Procedure / Exception
+Channel: Chat / Call as applicable
+Category: See corresponding General Procedure category
+Description: Maximum two pets are allowed at each of these listings. No cats; emotional support animals count as pets; no pet charges are stated.
+SA.16 â€” Pet Limit
+General Procedure: NO â€” Subproperty-Specific Procedure / Exception
+Channel: Chat / Call as applicable
+Category: See corresponding General Procedure category
+Description: Maximum one pet. No cats; emotional support animals count as pets; no pet charges are stated.
+SW.207 â€” Early Check-In
+General Procedure: NO â€” Subproperty-Specific Procedure / Exception
+Channel: Chat / Call as applicable
+Category: See corresponding General Procedure category
+Description: Use saved reply â€œEarly checkin not allowedâ€ and mention that a third-party cleaning company is used; this property is not in Breezeway.
+YV.204 â€” Parking
+General Procedure: NO â€” Subproperty-Specific Procedure / Exception
+Channel: Chat / Call as applicable
+Category: See corresponding General Procedure category
+Description: Send the saved reply labeled â€œParking,â€ per the source update dated November 1, 2024.
+Steamboat Springs region â€” Early Check-In / Cleaning Status
+General Procedure: NO â€” Subproperty-Specific Procedure / Exception
+Channel: Chat / Call as applicable
+Category: See corresponding General Procedure category
+Description: Use Breezeway at the standard 12 PM check to assess readiness. Status symbols in the source: dark green = cleaned; light blue = cleaning in progress; blue = yet to clean; orange = dirty. Another section describes green as ready and blue as not cleaned but scheduled by 4 PM; confirm interpretation if status is ambiguous.
+All non-Steamboat locations â€” Early Check-In
+General Procedure: NO â€” Subproperty-Specific Procedure / Exception
+Channel: Chat / Call as applicable
+Category: See corresponding General Procedure category
+Description: Use saved reply â€œEarly Check-in - Not Allowedâ€; the source says the team cannot monitor cleaning completion for these properties.
+TL properties â€” Last-Minute Reservations
+General Procedure: NO â€” Subproperty-Specific Procedure / Exception
+Channel: Chat / Call as applicable
+Category: See corresponding General Procedure category
+Description: Do not accept last-minute bookings for TL properties.
+SI.125; PX.113; PX.123; D.302; TL.303B; TL.101; TL.302D; 430.AV â€” Front Desk / Last-Minute Bookings
+General Procedure: NO â€” Subproperty-Specific Procedure / Exception
+Channel: Chat / Call as applicable
+Category: See corresponding General Procedure category
+Description: Last-minute bookings may not be permitted for front-desk units. Check the individual listing requirements before proceeding.
+D.302; PX.123; PX.113; SI.125; SF.308 â€” Luggage Storage
+General Procedure: NO â€” Subproperty-Specific Procedure / Exception
+Channel: Chat / Call as applicable
+Category: See corresponding General Procedure category
+Description: The source says these units have a front desk that allows guests to store luggage; all other units do not have a luggage-storage location.
+PX.113; PX.123; D.302; SI.125 â€” Daily Front Desk Reports
+General Procedure: NO â€” Subproperty-Specific Procedure / Exception
+Channel: Chat / Call as applicable
+Category: See corresponding General Procedure category
+Description: Check-in report verification and daily guest-detail sharing are required for these units as described in General Procedures.
+PM.B7 â€” Guest Thread Restriction
+General Procedure: NO â€” Subproperty-Specific Procedure / Exception
+Channel: Chat / Call as applicable
+Category: See corresponding General Procedure category
+Description: The source contains an instruction â€œPlease do not reply to the guest permanentlyâ€ alongside reservation HMME3PKSZ2 and PM.B7. This is ambiguous and should be confirmed before applying.
+6. ADDITIONAL SUBPROPERTY / COLLECTION
+All 78 listings are included in Section 4. No additional property groups were supplied in the source CSV.
+7. ADDITIONAL INFORMATION
+Communication & Operational Systems
+    â€¢ Airbnb/message platform: keep guest communication on-platform.
+    â€¢ Google Voice guest-call number: (970) 236-6118; if it fails, use WhatsApp.
+    â€¢ Site Audit Pro: https://cloud.siteauditpro.com/folders/81k5aGyYMp7zRlrNdDSb. The source warns never to mark an audit â€œas completeâ€ because it will delete the audit.
+    â€¢ Refund request form: https://airmgmt.co/team-zone.
+    â€¢ Steamboat housekeeping lost-and-found: https://www.aircln.co/lost-and-found.
+    â€¢ Pet process manual: https://docs.google.com/spreadsheets/d/15mmiL2NSlJpvarPsJfad8fd1unH0vsxQwXHSEzedLvQ/edit?pli=1#gid=840435471.
+Source Conflicts / Items to Confirm
+    â€¢ Cancellation/date-change rules overlap: one instruction prohibits reducing/removing dates within one week of check-in; another says modifications are allowed only more than 14 days before the reservation starts. The source says to maintain the cancellation policy if uncertain.
+    â€¢ Cleaning-issue workflow says to tell the guest they will receive a discount, but a later dated update says no discounts of any kind are provided. Confirm the currently approved approach before promising a discount.
+    â€¢ Breezeway status descriptions differ between source sections: one says green means clean and blue means not cleaned but scheduled by 4 PM; another gives dark green/light blue/blue/orange definitions. Confirm how the symbols currently appear in the system.
+    â€¢ Front-desk list differs between the general last-minute reservation section and the later update. The later list includes TL.303B, TL.101, TL.302D and 430.AV, while an earlier section mentions SI.125, PX.113, PX.123 and D.302. Check listing-level restrictions.
+    â€¢ The source's â€œPlease do not reply to the guest permanentlyâ€ note is attached to reservation HMME3PKSZ2 and PM.B7 but its scope and meaning are unclear.
+    â€¢ The fireplace instruction states guest use only from December 1, 2024, but does not specify an end date or current seasonal applicability.
+    â€¢ The source gives an emergency call priority and a separate Google Voice number. Confirm that all phone numbers and credentials remain current before use.
+    â€¢ Source credentials are intentionally not reproduced in this knowledge base's main procedures section; retrieve them from the approved secure source. Rotate any credentials that may have been shared beyond authorized staff.
+Source Scope
+Prepared solely from â€œCOMPILED PROCEDURES - AIR MGMT.odtâ€ and â€œAIR MGMT PROPERTY LISTING.csvâ€. The supplied property list contains 78 nicknames and addresses. Property names/addresses have been retained from the CSV, including source spelling and formatting where practical. No external information was added.
